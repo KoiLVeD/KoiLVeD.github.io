@@ -15,12 +15,12 @@
             <div class="b-header__wrap">
                 <a href="" class="b-header__logo"><img src="./images/logo-white.png" alt="cryptobox"></a>
                 <div class="b-header__list">
-                    <a href="index.html" >Главная</a>
-                    <a href="invest.html" class="active">Инвестиции</a>
+                    <a href="index.html">Главная</a>
+                    <a href="invest.html">Инвестиции</a>
                     <a href="partner.html">Партнерам</a>
                     <a href="faq.html">FAQ</a>
                     <a href="">Новости</a>
-                    <a href="contacts.html">Контакты</a>
+                    <a href="contacts.html" class="active">Контакты</a>
                 </div>
                 <div class="b-header__registration">
                     <a href="" class="btn btn--hover-white">Регистрация</a>
@@ -47,8 +47,7 @@
         <div class="container">
             <div class="b-first__light"></div>
             <div class="b-title__wrap">
-                <h1>Инвестиции</h1>
-                <p>ТРИ ПРОСТЫХ ШАГА</p>
+                <h1>Контакты</h1>
             </div>
             <div class="b-line">
                 <div></div>
@@ -61,77 +60,58 @@
     <div class="b-content">
         <div class="container">
             <div class="b-content__wrap">
-                <div class="b-content__invest">
-                    <div class="invest">
-                        <div class="invest__row">
-                            <div class="invest__item">
-                                <img src="./images/invest/1.png" alt="">
-                                <h3>
-                                    Регистрация
-                                </h3>
+                <div class="b-content__contacts">
+                    <div class="contacts">
+                        <div class="contacts__left">
+                            <h3>НАШ АДРЕС</h3>
+                            <div class="contacts__left-mark">
+                                <img src="./images/map-marker.png" alt="">
                                 <p>
-                                    Бесплатная регистрация. <br>
-                                    Чтобы открыть счет, достаточно <br>
-                                    ввести адрес электронной <br>
-                                    почты. и телефон
+                                    38A ST. JAMES'S STREET, London, <br>
+                                    UNITED KINGDOM, E17 7PE
                                 </p>
                             </div>
-                            <div class="invest__item">
-                                <img src="./images/invest/2.png" alt="">
-                                <h3>
-                                    Инвестирование
-                                </h3>
-                                <p>
-                                    Перевод инвестиционных <br>
-                                    средств в доверительное <br>
-                                    управление трейдерам
-                                </p>
-                            </div>
-                            <div class="invest__item">
-                                <img src="./images/invest/3.png" alt="">
-                                <h3>
-                                    Прибыль
-                                </h3>
-                                <p>
-                                    Равное разделение <br>
-                                    прибыли между компанией <br> и ее инвесторами
-                                </p>
+                            <div class="contacts__map">
+                                <div id="map"></div>
                             </div>
                         </div>
-                        <div class="invest__center">
-                            <div class="invest__center-top">
-                                1.5<span>%</span>
-                            </div>
-                            <div class="invest__center-day">
-                                365 ДНЕЙ
-                            </div>
-                        </div>
-                        <div class="invest__info">
-                            Привлекайте новых клиентов в CruptoBox Group
-                            и зарабатывайте на партнерских вознаграждениях до 21%
-                        </div>
-                        <div class="invest__bottom">
-                            <div class="invest__bottom-title">
-                                ВЫ ЛИДЕР?
-                            </div>
-                            <a href="" class="btn btn--full-blue">Далее</a>
+                        <div class="contacts__right">
+                            <h3>СВЯЗАТЬСЯ С НАМИ</h3>
+                            <a href="mailto:hi@cryptobox.com" class="contacts__mail">
+                                <img src="./images/mail-ico.png" alt="">
+                                hi@cryptobox.com
+                            </a>
+                            
+                            <form action="">
+                                <label for="" class="js-focus">
+                                    <span>ИМЯ</span>
+                                    <input type="text" required>
+                                </label>
+                                <label for="" class="js-focus">
+                                    <span>E-MAIL</span>
+                                    <input type="email" required>
+                                </label>
+                                <label for="">
+                                    <span>СООБЩЕНИЕ</span>
+                                    <textarea name="" id="" cols="30" rows="10"></textarea>
+                                </label>
+
+                                <button type="submit" class="btn btn--full-blue">ОТПРАВИТЬ</button>
+                            </form>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="b-line b-line--invest">
+            <div class="b-line">
                 <div></div>
                 <div></div>
-                <div>
-                    <img data-150="transform:translate3d(0,0px,0);"
-                         data-600="transform:translate3d(0,490px,0);" class="js-animate-load" src="./images/animate/crypto-light.png" alt="">
+                <div> <img data-150="transform:translate3d(0,0px,0);"
+                           data-500="transform:translate3d(0,190px,0);" class="js-animate-load" src="./images/animate/crypto-light.png" alt="">
                 </div>
-                <div></div>
                 <div>
                     <img data-200="transform:translate3d(0,0px,0);"
-                         data-700="transform:translate3d(0,-200px,0);" class="js-animate-load" src="./images/animate/box-light.png" alt="box">
+                         data-600="transform:translate3d(0,-400px,0);" class="js-animate-load" src="./images/animate/box-light.png" alt="box">
                 </div>
-                <div></div>
             </div>
         </div>
     </div>
@@ -201,6 +181,19 @@
     </div>
 </footer>
 
+
+<script>
+    var map;
+    function initMap() {
+        var cairo = {lat: 51.507570, lng: -0.125470};
+        map = new google.maps.Map(document.getElementById('map'), {
+            center: cairo,
+            zoom: 8
+        });
+    }
+</script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBNHKQSJiXneDkpx6UNZzHSCEsh3UijTIw&callback=initMap"
+        async defer></script>
 <script src="./js/bundle.js"></script>
 </body>
 </html>
