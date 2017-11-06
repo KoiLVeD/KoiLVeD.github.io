@@ -8,6 +8,71 @@
     <link rel="stylesheet" type="text/css" href="./css/style.css" media="screen">
 </head>
 <body >
+<div id="auth" class="white-popup mfp-hide">
+    <div  class="popup-auth  b-lk-content">
+        <div class="popup-close"></div>
+        <div class="popup-auth__wrap">
+        <div class="popup-auth__title">
+            Авторизация
+        </div>
+        <form action="">
+            <input type="text" placeholder="Логин" required>
+            <input type="password" placeholder="Пароль" required>
+            <div class="popup-auth__links">
+                <p>Забыли пароль?</p>
+                <a href="">Восстановление</a>
+            </div>
+            <button class="btn btn--full btn--full-blue btn--lk">Вход</button>
+            <div class="popup-auth__divider"></div>
+            <div class="popup-auth__links">
+                <p>Еще не зарегистрированы? </p>
+                <a href="">Создать аккаунт</a>
+            </div>
+        </form>
+    </div>
+    </div>
+</div>
+
+<div id="registr" class="white-popup mfp-hide">
+    <div  class="popup-auth popup-auth--registr b-lk-content">
+        <div class="popup-close"></div>
+        <div class="popup-auth__wrap">
+            <div class="popup-auth__title">
+                Регистрация
+            </div>
+            <form action="">
+                <input type="text" placeholder="Имя" required>
+                <input type="text" placeholder="Логин" required>
+                <input type="password" placeholder="Пароль" required>
+
+                <input type="email" placeholder="E-mail" required>
+                <input type="text" placeholder="Cекретное слово" required>
+
+                <h3>Мои кошельки:</h3>
+                <div class="img-inner">
+                    <input type="text" placeholder="U 0000 0000 0000" required>
+                    <img src="images/lk-setting_account/l-1.png" alt="">
+                </div>
+                <div class="img-inner">
+                    <input type="text" placeholder="U 0000 0000 0000" required>
+                    <img src="images/lk-setting_account/l-2.png" alt="">
+                </div>
+                <div class="img-inner">
+                    <input type="text" placeholder="U 0000 0000 0000" required>
+                    <img src="images/lk-setting_account/l-3.png" alt="">
+                </div>
+                <div class="img-inner">
+                    <input type="text" placeholder="U 0000 0000 0000" required>
+                    <img src="images/lk-setting_account/l-4.png" alt="">
+                </div>
+
+                <button class="btn btn--full btn--full-blue btn--lk">Зарегистрироваться</button>
+
+            </form>
+        </div>
+    </div>
+</div>
+
 <header id="up">
     <div class="b-header">
         <div class="container">
@@ -22,8 +87,8 @@
                     <a href="contacts.html">Контакты</a>
                 </div>
                 <div class="b-header__registration">
-                    <a href="" class="btn btn--hover-white">Регистрация</a>
-                    <a href="" class="btn btn--full btn--hover-blue">Вход</a>
+                    <a href="#registr" class="btn btn--hover-white js-popup">Регистрация</a>
+                    <a href="#auth" class="btn btn--full btn--hover-blue js-popup">Вход</a>
                     <div class="b-header__lang">
                         <a href="" class="btn btn--full btn--lang">
                             RU
