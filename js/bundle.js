@@ -81,7 +81,7 @@ eval("\n\n__webpack_require__(2);\n\n//////////////////\n// WEBPACK FOOTER\n// .
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("\n\n__webpack_require__(3);\n\n__webpack_require__(5);\n\n//////////////////\n// WEBPACK FOOTER\n// ./js/frontend/index.js\n// module id = 2\n// module chunks = 0\n\n//# sourceURL=webpack:///./js/frontend/index.js?");
+eval("/* WEBPACK VAR INJECTION */(function($) {\n\n__webpack_require__(3);\n\n__webpack_require__(5);\n\n$(document).ready(function () {\n    $('.js-submit').on('click', function (e) {\n        e.preventDefault();\n        var test = $('form').serialize();\n        console.log(test);\n    });\n});\n/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))\n\n//////////////////\n// WEBPACK FOOTER\n// ./js/frontend/index.js\n// module id = 2\n// module chunks = 0\n\n//# sourceURL=webpack:///./js/frontend/index.js?");
 
 /***/ }),
 /* 3 */
