@@ -101,7 +101,7 @@ eval("var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPAC
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("/* WEBPACK VAR INJECTION */(function($) {\n\nvar skrollr = __webpack_require__(6);\n//\n// if( ($(window).innerWidth()) <= 1025) {\n//     skrollr.init().destroy();\n// } else {\n//\n// }\n$(document).ready(function () {\n    skrollr.init({\n        smoothScrolling: false\n    });\n});\n/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))\n\n//////////////////\n// WEBPACK FOOTER\n// ./js/frontend/animation/index.js\n// module id = 5\n// module chunks = 0\n\n//# sourceURL=webpack:///./js/frontend/animation/index.js?");
+eval("/* WEBPACK VAR INJECTION */(function($) {\n\nvar skrollr = __webpack_require__(6);\n//\n// if( ($(window).innerWidth()) <= 1025) {\n//     skrollr.init().destroy();\n// } else {\n//\n// }\n$(document).ready(function () {\n    skrollr.init({\n        smoothScrolling: false,\n        render: function render(data) {\n            document.querySelector(\".whereami\").innerHTML = data.curTop;\n        }\n    });\n});\n/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))\n\n//////////////////\n// WEBPACK FOOTER\n// ./js/frontend/animation/index.js\n// module id = 5\n// module chunks = 0\n\n//# sourceURL=webpack:///./js/frontend/animation/index.js?");
 
 /***/ }),
 /* 6 */
