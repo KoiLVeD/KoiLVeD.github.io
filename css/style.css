@@ -893,7 +893,7 @@ BLOCKS
 .b-grid__row--no-bottom .b-grid__column div:last-child {
   margin-bottom: 0; }
 
-.b-grid__row--no-bottom > a {
+.b-grid__row--no-bottom a {
   margin-bottom: 0; }
 
 .b-grid--gallery .card img {
