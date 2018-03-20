@@ -890,10 +890,10 @@ BLOCKS
 .b-grid__row--animation {
   z-index: 5; }
 
-.b-grid__row--no-bottom .b-grid__column div:last-child {
+.b-grid__row--no-bottom .b-grid__column a:last-child {
   margin-bottom: 0; }
 
-.b-grid__row--no-bottom a {
+.b-grid__row--no-bottom > div {
   margin-bottom: 0; }
 
 .b-grid--gallery .card img {
