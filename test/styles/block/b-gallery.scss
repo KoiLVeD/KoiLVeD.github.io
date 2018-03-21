@@ -1,0 +1,23 @@
+.b-gallery {
+  display: flex;
+  flex-direction: column;
+
+  .card {
+    margin-bottom: 20px;
+  }
+
+  .card__info {
+    h4, p {
+      font-size: 14px;
+      line-height: 1;
+    }
+    h4 {
+      margin-bottom: 11px;
+    }
+  }
+  img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+}

@@ -1,0 +1,209 @@
+include ../mixins/all-mixins
+- var img_1 = './images/home/Stroeher Riegel 50 .jpg'
+
+- var img_2 = './images/home/GLANZSTUECKE_NO01_03.jpg'
+- var img_3 = './images/home/STROEHER Riegel50_2.jpg'
+
+- var img_4 = './images/home/S.ANSELMO Corso Terra.jpg'
+- var img_5 = './images/home/Photo.jpg'
+
+- var img_6 = './images/home/Stroeher Zeitloss 352.jpg'
+- var img_7 = './images/home/KERAWIL Keratique.jpg'
+
+- var img_slider_1 = './images/home_page/29@2x.jpg'
+
+- var img_8 = './images/home/STROEHER Stiltreu 452.jpg'
+- var img_9 = './images/home/Stroeher Spaltklinker 366.jpg'
+
+- var img_10 = './images/home/STROEHER Asar 640.jpg'
+- var img_11 = './images/home/S.ANSELMO Smoked.jpg'
+
+- var img_slider_2 = './images/home/glass-house-wows-modern.jpg'
+
+- var img_12 = './images/home/S.ANSELMO Londra Sabbia Fine.jpg'
+
+- var img_13 = './images/home/STROEHER Gravel Blend 960.jpg'
+- var img_14 = './images/home_page/papenburg_03_a@2x.jpg'
+
+- var img_15 = './images/home/STROEHER  Steinlinge 376.jpg'
+- var img_16 = './images/home/4U5A2855.jpg'
+
+.b-grid
+    .container
+        .b-grid__row
+            a(href='').b-grid__card.b-grid__card--7
+                .card.card--catalog
+                    .card__wrap
+                        .card__list
+                            h3 Каталог товаров
+                            ul
+                                li Клинкерная плитка Stroeher (Германия)
+                                li Кирпич ручной формовки S. Anselmo (Италия)
+                                li Клинкерная брусчатка Kerawil (Германия)
+                                li Строительные смеси и химия
+                        .card__bg.card__bg---icon-1
+            a(href='').b-grid__card.b-grid__card--5
+                .card.card--info-left
+                    +img(img_1)
+                    .card__info
+                        h4 Клинкерная плитка
+                        p Stroeher Riegel 50
+
+            a(href='').b-grid__card.b-grid__card--5
+                .card
+                    +img(img_2)
+
+            a(href='').b-grid__card.b-grid__card--7
+                .card.card--info-left
+                    +img(img_3)
+                    .card__info
+                        h4 Клинкерная плитка
+                        p Stroeher Riegel 50
+
+
+        .b-grid__row.b-grid__row--no-bottom
+            .b-grid__column
+                a(href='').b-grid__card.b-grid__card--5
+                    .card.card--info-right
+                        +img(img_4)
+                        .card__info
+                            h4 Кирпич ручной формовки
+                            p s.ANSElMO Corso Terra
+                a(href='').b-grid__card.b-grid__card--5
+                    .card
+                        +img(img_5)
+            .b-grid__column
+                a(href='').b-grid__card.b-grid__card--7
+                    .card.card--info-left
+                        +img(img_6)
+                        .card__info
+                            h4 Клинкерная плитка
+                            p Stroeher Zeitloss 352
+
+
+
+                a(href='').b-grid__card.b-grid__card--7
+                    .card.card--info-left
+                        +img(img_7)
+                        .card__info
+                            h4 Клинкерная брусчатка
+                            p Kerawil Keratique
+
+        .b-grid__row.b-grid__row--animation
+            .b-grid__single-slider
+                .single-slider.js-home-slider(data--50-top="transform: translate3d(0,-120px,0)"  data-bottom="transform: translate3d(0,0px,0)")
+                    .single-slider__item
+                        .single-slider__content
+                            h2 Дизайн-проект под ключ (1)
+                            p Закажите нам разработку дизайна дома вашей мечты. Красота бывает очень долговечной!
+                        +img(img_slider_1)
+                    .single-slider__item
+                        .single-slider__content
+                            h2 Дизайн-проект под ключ (2)
+                            p Закажите нам разработку дизайна дома вашей мечты. Красота бывает очень долговечной!
+                        +img(img_slider_1)
+
+        .b-grid__row
+            .b-grid__column
+                a(href='').b-grid__card.b-grid__card--5
+                    .card.card--info-right
+                        +img(img_8)
+                        .card__info
+                            h4 Клинкерная плитка
+                            p Stroeher Stiltreu 452
+            .b-grid__column
+                a(href='').b-grid__card.b-grid__card--7
+                    .card.card--catalog
+                        .card__wrap
+                            .card__list
+                                h3 Клинкер и керамика
+                                ul
+                                    li Фасадная клинкерная плитка
+                                    li Кирпич ручной формовки
+                                    li Напольная клинкерская плитка
+                                    li Террасная клинкерная плитка
+                                    li Клинкерная брусчатка
+
+                            .card__bg.card__bg---icon-1
+                a(href='').b-grid__card.b-grid__card--7
+                    .card.card--info-left
+                        +img(img_9)
+                        .card__info
+                            h4 Клинкерная плитка
+                            p Stroeher Spaltklinker 366
+
+        .b-grid__row.b-grid__row--no-bottom
+            a(href='').b-grid__card.b-grid__card--7
+                .card.card--info-right
+                    +img(img_10)
+                    .card__info
+                        h4 Клинкерные ступени
+                        p Stroeher Asar 640
+            a(href='').b-grid__card.b-grid__card--5
+                .card.card--info-left
+                    +img(img_11)
+                    .card__info
+                        h4 Кирпич ручной формовки
+                        p s.ANSElMO Smoked
+
+        .b-grid__row.b-grid__row--animation
+            .b-grid__single-slider(data--50-top="transform: translate3d(0,-120px,0)"  data-bottom="transform: translate3d(0,0px,0)")
+                .single-slider
+                    .single-slider__item
+                        .single-slider__content
+                            h2 Мужской интерьер на 28-м этаже
+                            p Журнал CeramicGroup
+                        +img(img_slider_2)
+
+                        
+        .b-grid__row
+            .b-grid__column
+                a(href='').b-grid__card.b-grid__card--5
+                    .card.card--catalog
+                        .card__wrap
+                            .card__list
+                                h3
+                                    | Строительные
+                                    br
+                                    | смеси и химия
+                                ul
+                                    li Для фасада
+                                    li Для пола
+                                    li Для мощения
+                                    li Системные решения
+
+
+                            .card__bg.card__bg---icon-2
+                a(href='').b-grid__card.b-grid__card--5
+                    .card.card--info-right
+                        +img(img_12)
+                        .card__info
+                            h4 Кирпич ручной формовки
+                            p s.ANSElMO Londra Sabbia Fine
+            .b-grid__column
+                a(href='').b-grid__card.b-grid__card--7
+                    .card.card--info-left
+                        +img(img_13)
+                        .card__info
+                            h4 Клинкерная плитка
+                            p Stroeher Gravel Blend 960
+
+
+
+                a(href='').b-grid__card.b-grid__card--7
+                    .card.card--info-left
+                        +img(img_14)
+                        .card__info
+                            h4 Клинкерная брусчатка
+                            p Kerawil Riegel
+
+        .b-grid__row
+            a(href='').b-grid__card.b-grid__card--7
+                .card.card--info-right
+                    +img(img_15)
+                    .card__info
+                        h4 Клинкерная плитка
+                        p Stroeher Steinlinge 376
+            a(href='').b-grid__card.b-grid__card--5
+                .card
+                    +img(img_16)

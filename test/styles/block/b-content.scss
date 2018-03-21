@@ -1,0 +1,37 @@
+.b-content {
+  padding-top: 40px;
+  margin-bottom: 20px;
+}
+
+.b-content__wrap {
+  display: flex;
+  justify-content: space-between;
+}
+
+.b-content__column {
+
+}
+
+.b-content-left {
+  h2 {
+    font-family: $fontBold;
+    font-size: 36px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    text-align: left;
+    color: $yellow;
+    margin-bottom: 55px;
+    text-transform: uppercase;
+  }
+}
+
+.b-content__column--4 {
+  width: grid-width(4);
+}
+
+.b-content__column--8 {
+  width: grid-width(8);
+}

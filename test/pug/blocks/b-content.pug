@@ -1,0 +1,140 @@
+include ../mixins/all-mixins
+- var img_1 = './images/gallery_list/KERABIG_KS14_02 копия.jpg'
+
+- var img_2 = './images/gallery_list/KERAVETTE_319_02 копия@1x.jpg'
+
+- var img_3 = './images/gallery_list/STROEHER Gravel Blend 960.jpg'
+
+
+.b-content
+    .container
+        .b-content__wrap
+            .b-content__column.b-content__column--4
+                .b-content-left
+                    h2 Фильтр
+                    .b-filter
+                        form
+                            .b-filter__item
+                                .b-filter__title Тип крепления
+                                .b-filter__choice
+                                    .b-filter__checkbox
+                                        input(id='_1' type='checkbox')
+                                        label(for='_1') Мокрый фасад
+
+                                    .b-filter__checkbox
+                                        input(id='_2' type='checkbox')
+                                        label(for='_2') Вент.фасад
+                            .b-filter__item
+                                .b-filter__title Применение
+                                .b-filter__choice
+                                    .b-filter__checkbox
+                                        input(id='_3' type='checkbox')
+                                        label(for='_3') Плитка для стен и фасадов
+                                    .b-filter__checkbox
+                                        input(id='_4' type='checkbox')
+                                        label(for='_4') Напольная плитка и ступени
+                                    .b-filter__checkbox
+                                        input(id='_5' type='checkbox')
+                                        label(for='_5') Террасные пластины
+                                    .b-filter__checkbox
+                                        input(id='_6' type='checkbox')
+                                        label(for='_6') Тротуарная плитка
+                                    .b-filter__checkbox
+                                        input(id='_7' type='checkbox')
+                                        label(for='_7') Промышленная плитка
+                            .b-filter__item
+                                .b-filter__title Коллекции
+                                .b-filter__choice
+                                    .b-filter__checkbox
+                                        input(id='_8' type='checkbox')
+                                        label(for='_8') Kontur
+                                    .b-filter__checkbox
+                                        input(id='_9' type='checkbox')
+                                        label(for='_9') Stiltreu
+                                    .b-filter__checkbox
+                                        input(id='_10' type='checkbox')
+                                        label(for='_10') Steinlinge
+                                    .b-filter__checkbox
+                                        input(id='_11' type='checkbox')
+                                        label(for='_11') Glanzstücke
+                                    .b-filter__checkbox
+                                        input(id='_12' type='checkbox')
+                                        label(for='_12') Zeitlos
+                                    .b-filter__checkbox
+                                        input(id='_13' type='checkbox')
+                                        label(for='_13') Keravette
+                            .b-filter__item
+                                .b-filter__title Цвета
+                                .b-filter__choice
+                                    .b-filter__checkbox
+                                        input(id='_14' type='checkbox' value='sdsd' name='sdsdds')
+                                        label(for='_14') Серый
+                                    .b-filter__checkbox
+                                        input(id='_15' type='checkbox' value='asdasd' name='sdf')
+                                        label(for='_15') Желтый
+                                    .b-filter__checkbox
+                                        input(id='_116' type='checkbox')
+                                        label(for='_116') Антрацит
+                                    .b-filter__checkbox
+                                        input(id='_111' type='checkbox')
+                                        label(for='_111') Бежевый
+                                    .b-filter__checkbox
+                                        input(id='_1222' type='checkbox')
+                                        label(for='_1222') Коричневый
+                                    .b-filter__checkbox
+                                        input(id='_1312' type='checkbox')
+                                        label(for='_1312') Красный
+                                    .b-filter__checkbox
+                                        input(id='_12222' type='checkbox')
+                                        label(for='_12222') Белый
+                            .b-filter__item
+                                .b-filter__title Размеры (mm)
+                                .b-filter__choice
+                                    .b-filter__checkbox
+                                        input(id='_144' type='checkbox' name='sdf')
+                                        label(for='_144') 240 x 52 x 8
+                                    .b-filter__checkbox
+                                        input(id='_154' type='checkbox')
+                                        label(for='_154') 240 x 52 x 12
+                                    .b-filter__checkbox
+                                        input(id='_1164' type='checkbox')
+                                        label(for='_1164') 400 x 35 x 14
+                                    .b-filter__checkbox
+                                        input(id='_1114' type='checkbox')
+                                        label(for='_1114') 240 x 71 x 14
+                                    .b-filter__checkbox
+                                        input(id='_12224' type='checkbox')
+                                        label(for='_12224') 240 x 52 x 12
+                                    .b-filter__checkbox
+                                        input(id='_13124' type='checkbox')
+                                        label(for='_13124') 240 x 52 x 12
+                                    .b-filter__checkbox
+                                        input(id='_122224' type='checkbox')
+                                        label(for='_122224') 240 x 52 x 12
+                            .b-filter__item
+                                button.b-filter__btn.btn.btn--submit.js-submit Применить
+                                .b-filter__reset Сбросить фильтр
+
+
+
+
+
+
+            .b-content__column.b-content__column--8
+                .b-content-right
+                    .b-gallery
+                        .card.card--info-left
+                            +img(img_1)
+                            .card__info
+                                h4 Строительство башни
+                                p Лейпциг, Германия
+                        .card.card--info-left
+                            +img(img_2)
+                            .card__info
+                                h4 Центр плавания
+                                p Лустенау, Австрия
+                        .card.card--info-left
+                            +img(img_3)
+                            .card__info
+                                h4 Университет Бакингемшир
+                                p Эйлсбери, Англия

@@ -1,0 +1,21 @@
+doctype html
+html(lang='ru')
+    head
+        meta(charset="UTF-8")
+        link(rel='stylesheet' href="/styles/guideline.css")
+        title Гайдлайн проекта
+    body
+        // Сверстанные страницы
+        -var links = []
+        -links.push({'url': '_layout', 'name': 'Шаблон'});
+        -links.push({'url': 'home', 'name': 'Главная'});
+        -links.push({'url': 'gallery_list', 'name': 'Гарелея список'});
+        -links.push({'url': 'gallery_detail', 'name': 'Гарелея детальная'});
+        -links.push({'url': 'catalog_list', 'name': 'Каталог список'});
+        -links.push({'url': 'catalog_detail', 'name': 'Каталог детальная'});
+
+        h2 Список свёрстанных страниц
+        ol
+            each link in links
+                li
+                    a(href!=link.url+'.html')=link.name

@@ -1,0 +1,113 @@
+extends _layout
+block title
+    title Главная страница
+block content
+    .b-wrapper
+        include blocks/header
+
+        .b-main.b-main--short
+            .b-main__bg(style='background-image: url("./images/catalog_detail/Группа 9.jpg")')
+            .b-main__content
+                .container
+                    h1 Каталог
+
+        include blocks/b-slider-filter
+        include blocks/b-select-filter
+
+        include blocks/b-grid--catalog-detail
+
+        include blocks/b-subscribe
+
+        include blocks/b-footer
+
+
+
+
+    //.b-landscape
+    //    .b-landscape__img
+    //
+    //    .b-landscape__text Для более комфортного просмотра нашего сайта мы рекомендуем вам перевернуть ваше устройство в портретное положение. Спасибо!
+    //
+    //include blocks/b-preloader
+    //
+    //include blocks/header
+    //include blocks/nav-left
+    //include blocks/load-page
+    //
+    //// мобильная версия - о компании
+    //include blocks/mobile/b-company-single
+    //// мобильная версия - продукция
+    //include blocks/mobile/b-product-single
+    //// мобильная версия - о компании
+    //include blocks/mobile/b-company-single
+    //// мобильная версия - кейсы
+    //include blocks/mobile/b-case-single
+    //// мобильная версия - о компании
+    //include blocks/mobile/b-company-single
+    //
+    //include blocks/mobile/b-partners
+    //
+    //#fullpage.block-wrapper
+    //
+    //
+    //    .section(
+    //    data-title-header-single='компания'
+    //    data-title-show='true')
+    //        include blocks/screen/company-slider--swiper
+    //        // блоки для мобильной версии
+    //
+    //    .section(
+    //    data-title-header-double-left='Продукция'
+    //    data-title-header-double-right='Зимние сады'
+    //    data-title-show='false')
+    //        include blocks/screen/producte-slider
+    //
+    //    .section(
+    //    data-title-header-double-left='Продукция'
+    //    data-title-header-double-right='Раздвижные системы'
+    //    data-title-show='false')
+    //        include blocks/screen/producte-single
+    //
+    //    .section(
+    //    data-title-header-double-left='Продукция'
+    //    data-title-header-double-right='окна'
+    //    data-title-show='false')
+    //        include blocks/screen/producte-slider
+    //
+    //    .section(
+    //    data-title-header-double-left='Продукция'
+    //    data-title-header-double-right='Двери'
+    //    data-title-show='false')
+    //        include blocks/screen/producte-single
+    //
+    //    .section(
+    //    data-title-header-single='кейсы'
+    //    data-title-center-show='true'
+    //    data-title-show='true')
+    //        include blocks/screen/case-slider
+    //
+    //    .section(
+    //    data-title-header-double-left='Продукция'
+    //    data-title-header-double-right='Двери'
+    //    data-title-show='false')
+    //        include blocks/screen/producte-single
+    //
+    //    .section(
+    //    data-title-header-double-left='Контакты'
+    //    data-title-header-double-right='Как с нами связаться'
+    //    data-title-show='false')
+    //        include blocks/screen/contacts
+    //
+    //    .section(
+    //    data-title-header-double-left='Контакты'
+    //    data-title-header-double-right='Карта наших партнеров'
+    //    data-title-show='false')
+    //        include blocks/screen/map
+    //
+    //
+    //include blocks/b-popup--menu
+    //include blocks/b-popup--callback
+    //include blocks/b-mobile-menu
+    //include blocks/footer
+
+

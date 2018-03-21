@@ -1,0 +1,15 @@
+.vertical-middle {
+  white-space: nowrap;
+  & > * {
+    display: inline-block;
+    vertical-align: middle;
+    white-space: normal;
+  }
+  &:after {
+    content: '';
+    display: inline-block;
+    height: 100%;
+    width: 0;
+    vertical-align: middle;
+  }
+}

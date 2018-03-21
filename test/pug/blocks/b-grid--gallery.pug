@@ -1,0 +1,31 @@
+include ../mixins/all-mixins
+- var img_1 = './images/gallery_detail/-e-S.ANSELMO Corso Terra.jpg'
+
+- var img_2 = './images/gallery_detail/STROEHER Riegel50.jpg'
+
+- var img_3 = './images/gallery_detail/-e-Papenburg_03a.jpg'
+
+.b-grid.b-grid--gallery
+    .container
+
+        .b-grid__row
+            .b-grid__column
+                a(href='').b-grid__card.b-grid__card--5
+                    .card.card--info-right
+                        +img(img_1)
+                        .card__info
+                            h4 Клинкер
+            .b-grid__column
+                a(href='').b-grid__card.b-grid__card--7
+                    .card.card--info-left
+                        +img(img_2)
+                        .card__info
+                            h4 Кирпич ручной формовки
+
+                a(href='').b-grid__card.b-grid__card--7
+                    .card.card--info-left
+                        +img(img_3)
+                        .card__info
+                            h4 Брусчатка
+
+
