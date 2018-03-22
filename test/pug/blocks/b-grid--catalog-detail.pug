@@ -14,7 +14,7 @@ include ../mixins/all-mixins
 - var img_3_color = './images/catalog_detail/33.jpg'
 - var img_4_color = './images/catalog_detail/44.jpg'
 
-.b-grid
+.b-grid.b-grid--catalog-detail
 
     .b-grid__single
         .container
@@ -25,10 +25,17 @@ include ../mixins/all-mixins
                     h2 ZOÉ
                     p Классические оттенки модных архитектурных направлений: прохладный серый цвет, теплый коричневый цвет и элегантный желтый цвет
                     .b-single-card__color
-                        +img(img_1_color)
-                        +img(img_2_color)
-                        +img(img_3_color)
-                        +img(img_4_color)
+                        .b-single-card__color-item
+                            +img(img_1_color)
+                        .b-single-card__color-item
+                            +img(img_2_color)
+                        .b-single-card__color-item
+                            +img(img_3_color)
+                        .b-single-card__color-item
+                            +img(img_4_color)
+                        a(href="#popup-color").b-single-card__color-item.b-single-card__color-item--popup.js-popup
+                            span +45
+                            +img(img_4_color)
                     a(href='').btn.btn--submit Подробнее
 
     .b-grid__single.b-grid__single--fullpage
@@ -40,10 +47,14 @@ include ../mixins/all-mixins
                     h2 GRAVEL BLEND
                     p Классические оттенки модных архитектурных направлений: прохладный серый цвет, теплый коричневый цвет и элегантный желтый цвет
                     .b-single-card__color
-                        +img(img_1_color)
-                        +img(img_2_color)
-                        +img(img_3_color)
-                        +img(img_4_color)
+                        .b-single-card__color-item
+                            +img(img_1_color)
+                        .b-single-card__color-item
+                            +img(img_2_color)
+                        .b-single-card__color-item
+                            +img(img_3_color)
+                        .b-single-card__color-item
+                            +img(img_4_color)
                     a(href='').btn.btn--submit Подробнее
 
     .b-grid__single
@@ -55,10 +66,10 @@ include ../mixins/all-mixins
                     h2 AERA T
                     p Классические оттенки модных архитектурных направлений: прохладный серый цвет, теплый коричневый цвет и элегантный желтый цвет
                     .b-single-card__color
-                        +img(img_1_color)
-                        +img(img_2_color)
-                        +img(img_3_color)
-                        +img(img_4_color)
+                        .b-single-card__color-item
+                            +img(img_1_color)
+                        .b-single-card__color-item
+                            +img(img_2_color)
                     a(href='').btn.btn--submit Подробнее
 
     .b-grid__single.b-grid__single--fullpage
@@ -70,10 +81,13 @@ include ../mixins/all-mixins
                     h2 AERA
                     p Классические оттенки модных архитектурных направлений: прохладный серый цвет, теплый коричневый цвет и элегантный желтый цвет
                     .b-single-card__color
-                        +img(img_1_color)
-                        +img(img_2_color)
-                        +img(img_3_color)
-                        +img(img_4_color)
+                        .b-single-card__color-item
+                            +img(img_1_color)
+                        .b-single-card__color-item
+                            +img(img_2_color)
+                        .b-single-card__color-item
+                            +img(img_3_color)
+
                     a(href='').btn.btn--submit Подробнее
     .b-grid__single
         .container
@@ -84,11 +98,16 @@ include ../mixins/all-mixins
                     h2 AERA T
                     p Классические оттенки модных архитектурных направлений: прохладный серый цвет, теплый коричневый цвет и элегантный желтый цвет
                     .b-single-card__color
-                        +img(img_1_color)
-                        +img(img_2_color)
-                        +img(img_3_color)
-                        +img(img_4_color)
+                        .b-single-card__color-item
+                            +img(img_1_color)
+                        .b-single-card__color-item
+                            +img(img_2_color)
+                        .b-single-card__color-item
+                            +img(img_3_color)
+                        .b-single-card__color-item
+                            +img(img_4_color)
                     a(href='').btn.btn--submit Подробнее
+
 
 
 

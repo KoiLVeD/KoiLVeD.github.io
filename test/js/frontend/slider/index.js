@@ -33,7 +33,9 @@ let paramsFilterSlider = {
     speed: 300,
     slidesToShow: 1,
     swipeToSlide: true,
-    variableWidth: true
+    variableWidth: true,
+    centerMode: true,
+    initialSlide: 2
 };
 
 let homeSlider = $('.js-home-slider');
@@ -41,3 +43,11 @@ let topFilterSlider = $('.js-top-slider-filter');
 
 homeSlider.slick(paramsHomeSlider);
 topFilterSlider.slick(paramsFilterSlider);
+
+topFilterSlider.on('click', '.slick-slide', function (e) {
+    e.stopPropagation();
+    var index = $(this).data("slick-index");
+    if (topFilterSlider.slick('slickCurrentSlide') !== index) {
+        topFilterSlider.slick('slickGoTo', index);
+    }
+});

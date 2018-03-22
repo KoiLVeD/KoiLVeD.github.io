@@ -9,7 +9,11 @@ block content
             .b-main__bg(style='background-image: url("./images/catalog_detail/Группа 9.jpg")')
             .b-main__content
                 .container
-                    h1 Каталог
+
+                    .b-breadcrumbs
+                        a(href='') Главная
+                        a(href='') Каталог
+                    h1 Клинкер
 
         include blocks/b-slider-filter
         include blocks/b-select-filter
@@ -19,6 +23,7 @@ block content
         include blocks/b-subscribe
 
         include blocks/b-footer
+        include blocks/b-popup
 
 
 
