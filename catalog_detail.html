@@ -45,7 +45,8 @@
         <div class="b-main__bg" style="background-image: url(&quot;./images/catalog_detail/Группа 9.jpg&quot;);"></div>
         <div class="b-main__content">
           <div class="container">
-            <h1>Каталог</h1>
+            <div class="b-breadcrumbs"><a href="">Главная</a><a href="">Каталог</a></div>
+            <h1>Клинкер</h1>
           </div>
         </div>
       </div>
@@ -58,6 +59,8 @@
               <div class="b-slider-filter__item">Террасные плаcтины</div>
               <div class="b-slider-filter__item">Тротуарная плитка</div>
               <div class="b-slider-filter__item">Промышленная плитка</div>
+              <div class="b-slider-filter__item">Напольная плитка и ступени</div>
+              <div class="b-slider-filter__item">Промышленная плитка</div>
             </div>
           </div>
         </div>
@@ -67,42 +70,65 @@
           <div class="b-select-filter__wrap">
             <div class="b-select-filter__item">
               <select>
-                <option>Тип крепления</option>
+                <option value="" disabled selected>Тип крепления</option>
+                <option value="">Пример</option>
+                <option value="">Пример</option>
+                <option value="">Пример</option>
               </select>
             </div>
             <div class="b-select-filter__item">
               <select>
-                <option>Применение</option>
+                <option value="" disabled selected>Применение</option>
+                <option value="">Пример</option>
+                <option value="">Пример</option>
+                <option value="">Пример</option>
               </select>
             </div>
             <div class="b-select-filter__item">
               <select>
-                <option>Коллекции</option>
+                <option value="" disabled selected>Коллекции</option>
+                <option value="">Пример</option>
+                <option value="">Пример</option>
+                <option value="">Пример</option>
               </select>
             </div>
             <div class="b-select-filter__item">
               <select>
-                <option>Цвета</option>
+                <option value="" disabled selected>Цвета</option>
+                <option value="">Пример</option>
+                <option value="">Пример</option>
+                <option value="">Пример</option>
               </select>
             </div>
             <div class="b-select-filter__item">
               <select>
-                <option>Размеры (mm)</option>
+                <option value="" disabled selected>Размеры (mm)</option>
+                <option value="">Пример</option>
+                <option value="">Пример</option>
+                <option value="">Пример</option>
               </select>
             </div>
           </div>
         </div>
       </div>
-      <div class="b-grid">
+      <div class="b-grid b-grid--catalog-detail">
         <div class="b-grid__single">
           <div class="container">
             <div class="b-single-card">
-              <div class="b-single-card__img"><img src="./images/catalog_detail/01_zoe_02.jpg">
+              <div class="b-single-card__img b-single-card--8 b-single-card--r-4"><img src="./images/catalog_detail/01_zoe_02.jpg">
               </div>
-              <div class="b-single-card__content">
+              <div class="b-single-card__content b-single-card--5">
                 <h2>ZOÉ</h2>
                 <p>Классические оттенки модных архитектурных направлений: прохладный серый цвет, теплый коричневый цвет и элегантный желтый цвет</p>
-                <div class="b-single-card__color"><img src="./images/catalog_detail/11.jpg"><img src="./images/catalog_detail/22.jpg"><img src="./images/catalog_detail/33.jpg"><img src="./images/catalog_detail/44.jpg">
+                <div class="b-single-card__color">
+                  <div class="b-single-card__color-item"><img src="./images/catalog_detail/11.jpg">
+                  </div>
+                  <div class="b-single-card__color-item"><img src="./images/catalog_detail/22.jpg">
+                  </div>
+                  <div class="b-single-card__color-item"><img src="./images/catalog_detail/33.jpg">
+                  </div>
+                  <div class="b-single-card__color-item"><img src="./images/catalog_detail/44.jpg">
+                  </div><a class="b-single-card__color-item b-single-card__color-item--popup js-popup" href="#popup-color"><span>+45</span><img src="./images/catalog_detail/44.jpg"></a>
                 </div><a class="btn btn--submit" href="">Подробнее</a>
               </div>
             </div>
@@ -110,25 +136,39 @@
         </div>
         <div class="b-grid__single b-grid__single--fullpage">
           <div class="b-single-card">
-            <div class="b-single-card__img"><img src="./images/catalog_detail/EPOS.952.02 копия.jpg">
+            <div class="b-single-card__img"><img src="./images/catalog_detail/Gravelblend_0186_962_01 копия.jpg">
             </div>
-            <div class="b-single-card__content">
-              <h2>GRAVEL BLEND</h2>
-              <p>Классические оттенки модных архитектурных направлений: прохладный серый цвет, теплый коричневый цвет и элегантный желтый цвет</p>
-              <div class="b-single-card__color"><img src="./images/catalog_detail/11.jpg"><img src="./images/catalog_detail/22.jpg"><img src="./images/catalog_detail/33.jpg"><img src="./images/catalog_detail/44.jpg">
-              </div><a class="btn btn--submit" href="">Подробнее</a>
+            <div class="container">
+              <div class="b-single-card__content b-single-card--5">
+                <h2>GRAVEL BLEND</h2>
+                <p>Классические оттенки модных архитектурных направлений: прохладный серый цвет, теплый коричневый цвет и элегантный желтый цвет</p>
+                <div class="b-single-card__color">
+                  <div class="b-single-card__color-item"><img src="./images/catalog_detail/11.jpg">
+                  </div>
+                  <div class="b-single-card__color-item"><img src="./images/catalog_detail/22.jpg">
+                  </div>
+                  <div class="b-single-card__color-item"><img src="./images/catalog_detail/33.jpg">
+                  </div>
+                  <div class="b-single-card__color-item"><img src="./images/catalog_detail/44.jpg">
+                  </div>
+                </div><a class="btn btn--submit" href="">Подробнее</a>
+              </div>
             </div>
           </div>
         </div>
         <div class="b-grid__single">
           <div class="container">
             <div class="b-single-card">
-              <div class="b-single-card__img"><img src="./images/catalog_detail/csm_01.aerat.705.01_e15a36bbb7.jpg">
+              <div class="b-single-card__img"><img src="./images/catalog_detail/EPOS.952.02 копия.jpg">
               </div>
-              <div class="b-single-card__content">
-                <h2>AERA T</h2>
+              <div class="b-single-card__content b-single-card--5">
+                <h2>EPOS</h2>
                 <p>Классические оттенки модных архитектурных направлений: прохладный серый цвет, теплый коричневый цвет и элегантный желтый цвет</p>
-                <div class="b-single-card__color"><img src="./images/catalog_detail/11.jpg"><img src="./images/catalog_detail/22.jpg"><img src="./images/catalog_detail/33.jpg"><img src="./images/catalog_detail/44.jpg">
+                <div class="b-single-card__color">
+                  <div class="b-single-card__color-item"><img src="./images/catalog_detail/11.jpg">
+                  </div>
+                  <div class="b-single-card__color-item"><img src="./images/catalog_detail/22.jpg">
+                  </div>
                 </div><a class="btn btn--submit" href="">Подробнее</a>
               </div>
             </div>
@@ -136,13 +176,43 @@
         </div>
         <div class="b-grid__single b-grid__single--fullpage">
           <div class="b-single-card">
-            <div class="b-single-card__img"><img src="./images/catalog_detail/AERA_755_04 копия.jpg">
+            <div class="b-single-card__img"><img src="./images/catalog_detail/csm_01.aerat.705.01_e15a36bbb7.jpg">
             </div>
-            <div class="b-single-card__content">
-              <h2>AERA</h2>
-              <p>Классические оттенки модных архитектурных направлений: прохладный серый цвет, теплый коричневый цвет и элегантный желтый цвет</p>
-              <div class="b-single-card__color"><img src="./images/catalog_detail/11.jpg"><img src="./images/catalog_detail/22.jpg"><img src="./images/catalog_detail/33.jpg"><img src="./images/catalog_detail/44.jpg">
-              </div><a class="btn btn--submit" href="">Подробнее</a>
+            <div class="container">
+              <div class="b-single-card__content b-single-card--5">
+                <h2>AERA T</h2>
+                <p>Классические оттенки модных архитектурных направлений: прохладный серый цвет, теплый коричневый цвет и элегантный желтый цвет</p>
+                <div class="b-single-card__color">
+                  <div class="b-single-card__color-item"><img src="./images/catalog_detail/11.jpg">
+                  </div>
+                  <div class="b-single-card__color-item"><img src="./images/catalog_detail/22.jpg">
+                  </div>
+                  <div class="b-single-card__color-item"><img src="./images/catalog_detail/33.jpg">
+                  </div>
+                </div><a class="btn btn--submit" href="">Подробнее</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="b-grid__single">
+          <div class="container">
+            <div class="b-single-card">
+              <div class="b-single-card__img"><img src="./images/catalog_detail/AERA_755_04 копия.jpg">
+              </div>
+              <div class="b-single-card__content b-single-card--5">
+                <h2>AERA</h2>
+                <p>Классические оттенки модных архитектурных направлений: прохладный серый цвет, теплый коричневый цвет и элегантный желтый цвет</p>
+                <div class="b-single-card__color">
+                  <div class="b-single-card__color-item"><img src="./images/catalog_detail/11.jpg">
+                  </div>
+                  <div class="b-single-card__color-item"><img src="./images/catalog_detail/22.jpg">
+                  </div>
+                  <div class="b-single-card__color-item"><img src="./images/catalog_detail/33.jpg">
+                  </div>
+                  <div class="b-single-card__color-item"><img src="./images/catalog_detail/44.jpg">
+                  </div>
+                </div><a class="btn btn--submit" href="">Подробнее</a>
+              </div>
             </div>
           </div>
         </div>
@@ -279,6 +349,47 @@
           </div>
         </div>
       </footer>
+      <div class="b-popup mfp-hide" id="popup-color"><span class="b-popup__close"></span>
+        <div class="b-popup__content">
+          <div class="b-color">
+            <div class="b-color__title">ZOÉ<span>(50)</span></div>
+            <div class="b-color__list js-custom-scroll">
+              <div class="b-color__item"><img src="./images/catalog_detail/qq.jpg"><span>Selmo (BB)</span>
+              </div>
+              <div class="b-color__item"><img src="./images/catalog_detail/ww.jpg"><span>Selmo (BG)</span>
+              </div>
+              <div class="b-color__item"><img src="./images/catalog_detail/qq.jpg"><span>Selmo (BB)</span>
+              </div>
+              <div class="b-color__item"><img src="./images/catalog_detail/ww.jpg"><span>Selmo (BG)</span>
+              </div>
+              <div class="b-color__item"><img src="./images/catalog_detail/qq.jpg"><span>Selmo (BB)</span>
+              </div>
+              <div class="b-color__item"><img src="./images/catalog_detail/ww.jpg"><span>Selmo (BG)</span>
+              </div>
+              <div class="b-color__item"><img src="./images/catalog_detail/qq.jpg"><span>Selmo (BB)</span>
+              </div>
+              <div class="b-color__item"><img src="./images/catalog_detail/ww.jpg"><span>Selmo (BG)</span>
+              </div>
+              <div class="b-color__item"><img src="./images/catalog_detail/qq.jpg"><span>Selmo (BB)</span>
+              </div>
+              <div class="b-color__item"><img src="./images/catalog_detail/ww.jpg"><span>Selmo (BG)</span>
+              </div>
+              <div class="b-color__item"><img src="./images/catalog_detail/qq.jpg"><span>Selmo (BB)</span>
+              </div>
+              <div class="b-color__item"><img src="./images/catalog_detail/ww.jpg"><span>Selmo (BG)</span>
+              </div>
+              <div class="b-color__item"><img src="./images/catalog_detail/qq.jpg"><span>Selmo (BB)</span>
+              </div>
+              <div class="b-color__item"><img src="./images/catalog_detail/ww.jpg"><span>Selmo (BG)</span>
+              </div>
+              <div class="b-color__item"><img src="./images/catalog_detail/qq.jpg"><span>Selmo (BB)</span>
+              </div>
+              <div class="b-color__item"><img src="./images/catalog_detail/ww.jpg"><span>Selmo (BG)</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
     <!--.b-landscape-->
     <!--    .b-landscape__img-->
