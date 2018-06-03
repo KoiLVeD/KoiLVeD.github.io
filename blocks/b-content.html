@@ -5,18 +5,22 @@
       <div class="b-content__column b-content__column--4">
         <div class="b-content-left">
           <h2>Фильтр</h2>
-          <div class="b-filter">
-            <form>
+          <div class="b-filter js-filter-select">
+            <form name="_form" method="GET">
               <div class="b-filter__item">
                 <div class="b-filter__title">Тип крепления</div>
                 <div class="b-filter__choice">
                   <div class="b-filter__checkbox">
-                    <input id="_1" type="checkbox"/>
-                    <label for="_1">Мокрый фасад</label>
+                    <input type="checkbox" id="_1f" name="catalog_feature_value[]" value="Мокрый фасад"/>
+                    <label for="_1f">Мокрый фасад</label>
                   </div>
                   <div class="b-filter__checkbox">
-                    <input id="_2" type="checkbox"/>
-                    <label for="_2">Вент.фасад</label>
+                    <input type="checkbox" id="_2f" name="catalog_feature_value[]" value="Вент. фасад"/>
+                    <label for="_2f">Вент. фасад</label>
+                  </div>
+                  <div class="b-filter__checkbox">
+                    <input type="checkbox" id="_22f" name="catalog_feature_value[]" value="Мокрый"/>
+                    <label for="_22f">Мокрый</label>
                   </div>
                 </div>
               </div>
@@ -24,24 +28,20 @@
                 <div class="b-filter__title">Применение</div>
                 <div class="b-filter__choice">
                   <div class="b-filter__checkbox">
-                    <input id="_3" type="checkbox"/>
-                    <label for="_3">Плитка для стен и фасадов</label>
+                    <input type="checkbox" id="_14" name="catalog_parent_id[]" value="11"/>
+                    <label for="_14">Плитка для стен и фасадов</label>
                   </div>
                   <div class="b-filter__checkbox">
-                    <input id="_4" type="checkbox"/>
-                    <label for="_4">Напольная плитка и ступени</label>
+                    <input type="checkbox" id="_24" name="catalog_parent_id[]" value="12"/>
+                    <label for="_24">Напольная плитка и ступени</label>
                   </div>
                   <div class="b-filter__checkbox">
-                    <input id="_5" type="checkbox"/>
-                    <label for="_5">Террасные пластины</label>
+                    <input type="checkbox" id="_224" name="catalog_parent_id[]" value="13"/>
+                    <label for="_224">Тротуарная плитка</label>
                   </div>
                   <div class="b-filter__checkbox">
-                    <input id="_6" type="checkbox"/>
-                    <label for="_6">Тротуарная плитка</label>
-                  </div>
-                  <div class="b-filter__checkbox">
-                    <input id="_7" type="checkbox"/>
-                    <label for="_7">Промышленная плитка</label>
+                    <input type="checkbox" id="_234" name="catalog_parent_id[]" value="14"/>
+                    <label for="_234">Промышленная плитка</label>
                   </div>
                 </div>
               </div>
@@ -49,28 +49,44 @@
                 <div class="b-filter__title">Коллекции</div>
                 <div class="b-filter__choice">
                   <div class="b-filter__checkbox">
-                    <input id="_8" type="checkbox"/>
-                    <label for="_8">Kontur</label>
+                    <input type="checkbox" id="_1`" name="catalog_id[]" value="16"/>
+                    <label for="_1`">Riegel 50</label>
                   </div>
                   <div class="b-filter__checkbox">
-                    <input id="_9" type="checkbox"/>
-                    <label for="_9">Stiltreu</label>
+                    <input type="checkbox" id="_2`" name="catalog_id[]" value="17"/>
+                    <label for="_2`">Handstrich</label>
                   </div>
                   <div class="b-filter__checkbox">
-                    <input id="_10" type="checkbox"/>
-                    <label for="_10">Steinlinge</label>
+                    <input type="checkbox" id="_22`" name="catalog_id[]" value="18"/>
+                    <label for="_22`">Steinlinge</label>
                   </div>
                   <div class="b-filter__checkbox">
-                    <input id="_11" type="checkbox"/>
-                    <label for="_11">Glanzstücke</label>
+                    <input type="checkbox" id="_1`d" name="catalog_id[]" value="27"/>
+                    <label for="_1`d">Duro</label>
                   </div>
                   <div class="b-filter__checkbox">
-                    <input id="_12" type="checkbox"/>
-                    <label for="_12">Zeitlos</label>
+                    <input type="checkbox" id="_2s`" name="catalog_id[]" value="19"/>
+                    <label for="_2s`">Glanzstucke</label>
                   </div>
                   <div class="b-filter__checkbox">
-                    <input id="_13" type="checkbox"/>
-                    <label for="_13">Keravette</label>
+                    <input type="checkbox" id="_1`1" name="catalog_id[]" value="28"/>
+                    <label for="_1`1">Roccia X</label>
+                  </div>
+                  <div class="b-filter__checkbox">
+                    <input type="checkbox" id="q_2`2" name="catalog_id[]" value="20"/>
+                    <label for="q_2`2">Zeitlos</label>
+                  </div>
+                  <div class="b-filter__checkbox">
+                    <input type="checkbox" id="a_2`2" name="catalog_id[]" value="29"/>
+                    <label for="a_2`2">Asar</label>
+                  </div>
+                  <div class="b-filter__checkbox">
+                    <input type="checkbox" id="s_2`2" name="catalog_id[]" value="21"/>
+                    <label for="s_2`2">Keraprotect</label>
+                  </div>
+                  <div class="b-filter__checkbox">
+                    <input type="checkbox" id="d_2`2" name="catalog_id[]" value="30"/>
+                    <label for="d_2`2">Epos</label>
                   </div>
                 </div>
               </div>
@@ -78,32 +94,36 @@
                 <div class="b-filter__title">Цвета</div>
                 <div class="b-filter__choice">
                   <div class="b-filter__checkbox">
-                    <input id="_14" type="checkbox" value="sdsd" name="sdsdds"/>
-                    <label for="_14">Серый</label>
+                    <input type="checkbox" id="_1у" name="catalog_item_feature_value[]" value="бежевый"/>
+                    <label for="_1у">бежевый</label>
                   </div>
                   <div class="b-filter__checkbox">
-                    <input id="_15" type="checkbox" value="asdasd" name="sdf"/>
-                    <label for="_15">Желтый</label>
+                    <input type="checkbox" id="_2у" name="catalog_item_feature_value[]" value="белый"/>
+                    <label for="_2у">белый</label>
                   </div>
                   <div class="b-filter__checkbox">
-                    <input id="_116" type="checkbox"/>
-                    <label for="_116">Антрацит</label>
+                    <input type="checkbox" id="_22у" name="catalog_item_feature_value[]" value="желтый"/>
+                    <label for="_22у">желтый</label>
                   </div>
                   <div class="b-filter__checkbox">
-                    <input id="_111" type="checkbox"/>
-                    <label for="_111">Бежевый</label>
+                    <input type="checkbox" id="_23у" name="catalog_item_feature_value[]" value="коричневый"/>
+                    <label for="_23у">коричневый</label>
                   </div>
                   <div class="b-filter__checkbox">
-                    <input id="_1222" type="checkbox"/>
-                    <label for="_1222">Коричневый</label>
+                    <input type="checkbox" id="_1уq" name="catalog_item_feature_value[]" value="черный"/>
+                    <label for="_1уq">черный</label>
                   </div>
                   <div class="b-filter__checkbox">
-                    <input id="_1312" type="checkbox"/>
-                    <label for="_1312">Красный</label>
+                    <input type="checkbox" id="_2уq" name="catalog_item_feature_value[]" value="серый"/>
+                    <label for="_2уq">серый</label>
                   </div>
                   <div class="b-filter__checkbox">
-                    <input id="_12222" type="checkbox"/>
-                    <label for="_12222">Белый</label>
+                    <input type="checkbox" id="_22уq" name="catalog_item_feature_value[]" value="голубой"/>
+                    <label for="_22уq">голубой</label>
+                  </div>
+                  <div class="b-filter__checkbox">
+                    <input type="checkbox" id="_23уq" name="catalog_item_feature_value[]" value="оранжевый"/>
+                    <label for="_23уq">оранжевый</label>
                   </div>
                 </div>
               </div>
@@ -111,38 +131,58 @@
                 <div class="b-filter__title">Размеры (mm)</div>
                 <div class="b-filter__choice">
                   <div class="b-filter__checkbox">
-                    <input id="_144" type="checkbox" name="sdf"/>
-                    <label for="_144">240 x 52 x 8</label>
+                    <input type="checkbox" id="_1" name="format_id[]" value="5"/>
+                    <label for="_1">490 х 40 х 14</label>
                   </div>
                   <div class="b-filter__checkbox">
-                    <input id="_154" type="checkbox"/>
-                    <label for="_154">240 x 52 x 12</label>
+                    <input type="checkbox" id="_2" name="format_id[]" value="4"/>
+                    <label for="_2">240 х 52 х 14</label>
                   </div>
                   <div class="b-filter__checkbox">
-                    <input id="_1164" type="checkbox"/>
-                    <label for="_1164">400 x 35 x 14</label>
+                    <input type="checkbox" id="_22" name="format_id[]" value="6"/>
+                    <label for="_22">240 х 71 х 14</label>
                   </div>
                   <div class="b-filter__checkbox">
-                    <input id="_1114" type="checkbox"/>
-                    <label for="_1114">240 x 71 x 14</label>
+                    <input type="checkbox" id="_23" name="format_id[]" value="7"/>
+                    <label for="_23">440 х 52 х 14</label>
                   </div>
                   <div class="b-filter__checkbox">
-                    <input id="_12224" type="checkbox"/>
-                    <label for="_12224">240 x 52 x 12</label>
+                    <input type="checkbox" id="_1qw" name="format_id[]" value="8"/>
+                    <label for="_1qw">400 х 71 х 14</label>
                   </div>
                   <div class="b-filter__checkbox">
-                    <input id="_13124" type="checkbox"/>
-                    <label for="_13124">240 x 52 x 12</label>
+                    <input type="checkbox" id="_2qw" name="format_id[]" value="9"/>
+                    <label for="_2qw">400 х 35 х 14</label>
                   </div>
                   <div class="b-filter__checkbox">
-                    <input id="_122224" type="checkbox"/>
-                    <label for="_122224">240 x 52 x 12</label>
+                    <input type="checkbox" id="_22qw" name="format_id[]" value="10"/>
+                    <label for="_22qw">240 х 71 х 11</label>
+                  </div>
+                  <div class="b-filter__checkbox">
+                    <input type="checkbox" id="_23qw" name="format_id[]" value="11"/>
+                    <label for="_23qw">302 х 148 х 12</label>
+                  </div>
+                  <div class="b-filter__checkbox">
+                    <input type="checkbox" id="_1qwqw" name="format_id[]" value="12"/>
+                    <label for="_1qwqw">604 х 296 х 12</label>
+                  </div>
+                  <div class="b-filter__checkbox">
+                    <input type="checkbox" id="_2qwqw" name="format_id[]" value="13"/>
+                    <label for="_2qwqw">240 х 52 х 14</label>
+                  </div>
+                  <div class="b-filter__checkbox">
+                    <input type="checkbox" id="_22qwqw" name="format_id[]" value="14"/>
+                    <label for="_22qwqw">240 х 71 х 8</label>
+                  </div>
+                  <div class="b-filter__checkbox">
+                    <input type="checkbox" id="_23qwqw" name="format_id[]" value="15"/>
+                    <label for="_23qwqw">240 х 52 х 8</label>
                   </div>
                 </div>
               </div>
               <div class="b-filter__item">
-                <button class="b-filter__btn btn btn--submit js-submit">Применить</button>
-                <div class="b-filter__reset">Сбросить фильтр</div>
+                <button class="b-filter__btn btn btn--submit">Применить</button>
+                <div class="b-filter__reset js-reset-filter">Сбросить фильтр</div>
               </div>
             </form>
           </div>
@@ -172,6 +212,7 @@
               <div class="card__info">
                 <h4>Chard+MHB+VTB+LOFB (CD)</h4>
               </div></a></div>
+          <div class="btn btn--more js-button-more">Показать еще</div>
         </div>
       </div>
     </div>
