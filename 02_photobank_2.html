@@ -28,15 +28,18 @@
               <li><a href="/">Сервис</a></li>
               <li><a href="/">Журнал</a></li>
               <li><a href="/">Контакты</a></li>
-            </ul><a class="b-header__city" href="">Владивосток</a>
+            </ul>
+            <div class="b-header__city js-show-city">Москва</div>
             <div class="b-header__divider"></div>
           </div>
           <div class="b-header__bottom">
             <div class="b-header__menu">
-              <div class="b-header__item b-header__item--active b-header__item--arrow">Каталог
+              <div class="b-header__item b-header__item--active b-header__item--arrow"><a href="">Каталог</a>
                 <ul class="b-header__dropdown">
                   <li><a class="b-header__subitem arrow" href="">Клинкер</a>
-                    <div class="b-header__subdropdown"><a class="b-header__subitem" href="">wwwwwww</a><a class="b-header__subitem" href="">wwwwwww</a><a class="b-header__subitem" href="">wwwwwww</a><a class="b-header__subitem" href="">wwwwwww</a></div>
+                    <div class="b-header__subdropdown"><a class="b-header__subitem" href="">wwwwwww</a><a class="b-header__subitem" href="">wwwwwww</a><a class="b-header__subitem" href="">wwwwwww</a><a class="b-header__subitem" href="">wwwwwww</a><a class="b-header__subitem" href="">wwwwwww</a><a class="b-header__subitem" href="">wwwwwww</a><a class="b-header__subitem" href="">wwwwwww</a><a class="b-header__subitem" href="">wwwwwww</a>
+                      <hr><a class="b-header__subitem" href="">wwwwwww</a><a class="b-header__subitem" href="">wwwwwww</a>
+                    </div>
                   </li>
                   <li><a class="b-header__subitem arrow" href="">Кирпич ручной формовки</a></li>
                   <li><a class="b-header__subitem arrow" href="">Брусчатка</a>
@@ -46,12 +49,35 @@
                   <li><a class="b-header__subitem arrow" href="">и еще</a></li>
                 </ul>
               </div><a class="b-header__item" href="">Готовые объекты</a><a class="b-header__item" href="">Визуализации</a><a class="b-header__item" href="">Прайсы</a>
-            </div><a class="b-header__phone" href="tel:74959610053">+7 (495) 961-00-53</a>
+            </div>
+            <div class="b-header__list-phone"><span class="b-header__phone b-header__phone--main">+7 (499) 348-85-65</span><span class="b-header__phone b-header__phone--child"></span></div>
+          </div>
+          <div class="b-header__select-city" data-display_flag="false">
+            <div class="select-city">
+              <div class="select-city__region">
+                <p>ЦЕНТРАЛЬНЫЙ ФО</p><a class="select-city__item js-select-city active" href="" data-reg_id="1">Москва</a><a class="select-city__item js-select-city" href="" data-reg_id="8">Белгород</a><a class="select-city__item js-select-city" href="" data-reg_id="9">Воронеж</a><a class="select-city__item js-select-city" href="" data-reg_id="10">Курск</a><a class="select-city__item js-select-city" href="" data-reg_id="3">Тамбов</a>
+              </div>
+              <div class="select-city__region">
+                <p>СЕВ.ЗАПАД. ФО</p><a class="select-city__item js-select-city" href="" data-reg_id="11">Санкт-Петербург</a>
+              </div>
+              <div class="select-city__region">
+                <p>Южный ФО</p><a class="select-city__item js-select-city" href="" data-reg_id="7">Краснодар</a>
+              </div>
+              <div class="select-city__region">
+                <p>УРАЛЬСКИЙ ФО</p><a class="select-city__item js-select-city" href="" data-reg_id="2">Екатеринбург</a>
+              </div>
+              <div class="select-city__region">
+                <p>СИБИРСКИЙ ФО</p><a class="select-city__item js-select-city" href="" data-reg_id="4">Новосибирск</a>
+              </div>
+              <div class="select-city__region">
+                <p>ДАЛЬНЕВОСТОЧНЫЙ ФО</p><a class="select-city__item js-select-city" href="" data-reg_id="6">Владивосток</a>
+              </div>
+            </div>
           </div>
         </div>
       </header>
       <div class="b-main b-main--short">
-        <div class="b-main__bg" style="background-image: url(&quot;./images/gallery_list/STROEHER Riegel50@1,5x.jpg&quot;);"></div>
+        <div class="b-main__bg" style="background-image: url(&quot;./images/gallery_list/STROEHER Riegel50@1,5x.jpg&quot;)"></div>
         <div class="b-main__content">
           <div class="container">
             <h1>Кирпич ручной формовки</h1>
@@ -64,43 +90,26 @@
             <div class="b-content__column b-content__column--4">
               <div class="b-content-left">
                 <h2>Фильтр</h2>
-                <div class="b-filter">
-                  <form>
-                    <div class="b-filter__item">
-                      <div class="b-filter__title">Тип крепления</div>
-                      <div class="b-filter__choice">
-                        <div class="b-filter__checkbox">
-                          <input id="_1" type="checkbox">
-                          <label for="_1">Мокрый фасад</label>
-                        </div>
-                        <div class="b-filter__checkbox">
-                          <input id="_2" type="checkbox">
-                          <label for="_2">Вент.фасад</label>
-                        </div>
-                      </div>
-                    </div>
+                <div class="b-filter js-filter-select js-filter-select--photo">
+                  <form name="_form" method="GET">
                     <div class="b-filter__item">
                       <div class="b-filter__title">Применение</div>
                       <div class="b-filter__choice">
                         <div class="b-filter__checkbox">
-                          <input id="_3" type="checkbox">
-                          <label for="_3">Плитка для стен и фасадов</label>
+                          <input type="checkbox" id="_14" name="catalog_parent_id[]" value="11">
+                          <label for="_14">Плитка для стен и фасадов</label>
                         </div>
                         <div class="b-filter__checkbox">
-                          <input id="_4" type="checkbox">
-                          <label for="_4">Напольная плитка и ступени</label>
+                          <input type="checkbox" id="_24" name="catalog_parent_id[]" value="12">
+                          <label for="_24">Напольная плитка и ступени</label>
                         </div>
                         <div class="b-filter__checkbox">
-                          <input id="_5" type="checkbox">
-                          <label for="_5">Террасные пластины</label>
+                          <input type="checkbox" id="_224" name="catalog_parent_id[]" value="13">
+                          <label for="_224">Тротуарная плитка</label>
                         </div>
                         <div class="b-filter__checkbox">
-                          <input id="_6" type="checkbox">
-                          <label for="_6">Тротуарная плитка</label>
-                        </div>
-                        <div class="b-filter__checkbox">
-                          <input id="_7" type="checkbox">
-                          <label for="_7">Промышленная плитка</label>
+                          <input type="checkbox" id="_234" name="catalog_parent_id[]" value="14">
+                          <label for="_234">Промышленная плитка</label>
                         </div>
                       </div>
                     </div>
@@ -108,28 +117,48 @@
                       <div class="b-filter__title">Коллекции</div>
                       <div class="b-filter__choice">
                         <div class="b-filter__checkbox">
-                          <input id="_8" type="checkbox">
-                          <label for="_8">Kontur</label>
+                          <input type="checkbox" id="_1`" name="catalog_id[]" value="16">
+                          <label for="_1`">Riegel 50</label>
                         </div>
                         <div class="b-filter__checkbox">
-                          <input id="_9" type="checkbox">
-                          <label for="_9">Stiltreu</label>
+                          <input type="checkbox" id="_2`" name="catalog_id[]" value="17">
+                          <label for="_2`">Handstrich</label>
                         </div>
                         <div class="b-filter__checkbox">
-                          <input id="_10" type="checkbox">
-                          <label for="_10">Steinlinge</label>
+                          <input type="checkbox" id="_22`" name="catalog_id[]" value="18">
+                          <label for="_22`">Steinlinge</label>
                         </div>
                         <div class="b-filter__checkbox">
-                          <input id="_11" type="checkbox">
-                          <label for="_11">Glanzstücke</label>
+                          <input type="checkbox" id="_1`d" name="catalog_id[]" value="27">
+                          <label for="_1`d">Duro</label>
                         </div>
                         <div class="b-filter__checkbox">
-                          <input id="_12" type="checkbox">
-                          <label for="_12">Zeitlos</label>
+                          <input type="checkbox" id="_2s`" name="catalog_id[]" value="19">
+                          <label for="_2s`">Glanzstucke</label>
                         </div>
                         <div class="b-filter__checkbox">
-                          <input id="_13" type="checkbox">
-                          <label for="_13">Keravette</label>
+                          <input type="checkbox" id="_1`1" name="catalog_id[]" value="28">
+                          <label for="_1`1">Roccia X</label>
+                        </div>
+                        <div class="b-filter__checkbox">
+                          <input type="checkbox" id="q_2`2" name="catalog_id[]" value="20">
+                          <label for="q_2`2">Zeitlos</label>
+                        </div>
+                        <div class="b-filter__checkbox">
+                          <input type="checkbox" id="a_2`2" name="catalog_id[]" value="29">
+                          <label for="a_2`2">Asar</label>
+                        </div>
+                        <div class="b-filter__checkbox">
+                          <input type="checkbox" id="s_2`2" name="catalog_id[]" value="21">
+                          <label for="s_2`2">Keraprotect</label>
+                        </div>
+                        <div class="b-filter__checkbox">
+                          <input type="checkbox" id="d_2`2" name="catalog_id[]" value="30">
+                          <label for="d_2`2">Epos</label>
+                        </div>
+                        <div class="b-filter__checkbox">
+                          <input type="checkbox" id="d_34" name="catalog_id[]" value="51">
+                          <label for="d_34">Terio Tec</label>
                         </div>
                       </div>
                     </div>
@@ -137,71 +166,47 @@
                       <div class="b-filter__title">Цвета</div>
                       <div class="b-filter__choice">
                         <div class="b-filter__checkbox">
-                          <input id="_14" type="checkbox" value="sdsd" name="sdsdds">
-                          <label for="_14">Серый</label>
+                          <input type="checkbox" id="_1у" name="color_id[]" value="1">
+                          <label for="_1у">бежевый</label>
                         </div>
                         <div class="b-filter__checkbox">
-                          <input id="_15" type="checkbox" value="asdasd" name="sdf">
-                          <label for="_15">Желтый</label>
+                          <input type="checkbox" id="_2у" name="color_id[]" value="3">
+                          <label for="_2у">белый</label>
                         </div>
                         <div class="b-filter__checkbox">
-                          <input id="_116" type="checkbox">
-                          <label for="_116">Антрацит</label>
+                          <input type="checkbox" id="_223у" name="color_id[]" value="4">
+                          <label for="_223у">красный</label>
                         </div>
                         <div class="b-filter__checkbox">
-                          <input id="_111" type="checkbox">
-                          <label for="_111">Бежевый</label>
+                          <input type="checkbox" id="_22у" name="color_id[]" value="2">
+                          <label for="_22у">желтый</label>
                         </div>
                         <div class="b-filter__checkbox">
-                          <input id="_1222" type="checkbox">
-                          <label for="_1222">Коричневый</label>
+                          <input type="checkbox" id="_23у" name="color_id[]" value="5">
+                          <label for="_23у">коричневый</label>
                         </div>
                         <div class="b-filter__checkbox">
-                          <input id="_1312" type="checkbox">
-                          <label for="_1312">Красный</label>
+                          <input type="checkbox" id="_1уq" name="color_id[]" value="8">
+                          <label for="_1уq">черный</label>
                         </div>
                         <div class="b-filter__checkbox">
-                          <input id="_12222" type="checkbox">
-                          <label for="_12222">Белый</label>
+                          <input type="checkbox" id="_2уq" name="color_id[]" value="9">
+                          <label for="_2уq">серый</label>
+                        </div>
+                        <div class="b-filter__checkbox">
+                          <input type="checkbox" id="_22уq" name="color_id[]" value="6">
+                          <label for="_22уq">голубой</label>
+                        </div>
+                        <div class="b-filter__checkbox">
+                          <input type="checkbox" id="_23уq" name="color_id[]" value="7">
+                          <label for="_23уq">оранжевый</label>
                         </div>
                       </div>
                     </div>
+                    <input class="js-hidden-input" type="hidden" name="last" value="">
                     <div class="b-filter__item">
-                      <div class="b-filter__title">Размеры (mm)</div>
-                      <div class="b-filter__choice">
-                        <div class="b-filter__checkbox">
-                          <input id="_144" type="checkbox" name="sdf">
-                          <label for="_144">240 x 52 x 8</label>
-                        </div>
-                        <div class="b-filter__checkbox">
-                          <input id="_154" type="checkbox">
-                          <label for="_154">240 x 52 x 12</label>
-                        </div>
-                        <div class="b-filter__checkbox">
-                          <input id="_1164" type="checkbox">
-                          <label for="_1164">400 x 35 x 14</label>
-                        </div>
-                        <div class="b-filter__checkbox">
-                          <input id="_1114" type="checkbox">
-                          <label for="_1114">240 x 71 x 14</label>
-                        </div>
-                        <div class="b-filter__checkbox">
-                          <input id="_12224" type="checkbox">
-                          <label for="_12224">240 x 52 x 12</label>
-                        </div>
-                        <div class="b-filter__checkbox">
-                          <input id="_13124" type="checkbox">
-                          <label for="_13124">240 x 52 x 12</label>
-                        </div>
-                        <div class="b-filter__checkbox">
-                          <input id="_122224" type="checkbox">
-                          <label for="_122224">240 x 52 x 12</label>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="b-filter__item">
-                      <button class="b-filter__btn btn btn--submit js-submit">Применить</button>
-                      <div class="b-filter__reset">Сбросить фильтр</div>
+                      <button class="b-filter__btn btn btn--submit">Применить</button>
+                      <div class="b-filter__reset js-reset-filter">Сбросить фильтр</div>
                     </div>
                   </form>
                 </div>
@@ -209,19 +214,24 @@
             </div>
             <div class="b-content__column b-content__column--8">
               <div class="b-content-right">
-                <div class="b-gallery"><a class="card card--info-left" href=""><img src="./images/gallery_list/KERABIG_KS14_02 копия.jpg">
-                    <div class="card__info">
-                      <h4>Университет Бакингемшир</h4>
-                      <p>Эйлсбери, Англия</p>
-                    </div></a><a class="card card--info-left" href=""><img src="./images/gallery_list/KERAVETTE_319_02 копия@1x.jpg">
-                    <div class="card__info">
-                      <h4>Строительство башни</h4>
-                      <p>Лейпциг, Германия</p>
-                    </div></a><a class="card card--info-left" href=""><img src="./images/gallery_list/STROEHER Gravel Blend 960.jpg">
-                    <div class="card__info">
-                      <h4>Центр плавания</h4>
-                      <p>Лустенау, Австрия</p>
-                    </div></a></div>
+                <div class="b-gallery">
+                  <!--a(href='').card.card--info-left-->
+                  <!--    +img(img_1)-->
+                  <!--    .card__info-->
+                  <!--        h4 Университет Бакингемшир-->
+                  <!--        p Эйлсбери, Англия-->
+                  <!--a(href='').card.card--info-left-->
+                  <!--    +img(img_2)-->
+                  <!--    .card__info-->
+                  <!--        h4 Строительство башни-->
+                  <!--        p Лейпциг, Германия-->
+                  <!--a(href='').card.card--info-left-->
+                  <!--    +img(img_3)-->
+                  <!--    .card__info-->
+                  <!--        h4 Центр плавания-->
+                  <!--        p Лустенау, Австрия-->
+                </div>
+                <div class="btn btn--more js-button-more" style="visibility: hidden;">Показать еще</div>
               </div>
             </div>
           </div>
@@ -234,7 +244,8 @@
               <div class="b-footer__column">
                 <div class="b-footer__address">
                   <p>БЕЛГОРОД</p>
-                  <p>Пугачёва ул., 5б.</p>
+                  <p>ул. Пугачёва д. 5б (2 этаж)</p>
+                  <p>ул. Благодатная, 5б.</p>
                   <p><a href="mailto:dekorator-stone@mail.ru">dekorator-stone@mail.ru</a></p>
                 </div>
                 <div class="b-footer__address">
@@ -246,7 +257,7 @@
               <div class="b-footer__column">
                 <div class="b-footer__address">
                   <p>ВЛАДИВОСТОК</p>
-                  <p>Ильичева ул., 22а, оф. 4.</p>
+                  <p>Ильичева ул., 22а, оф. 4. 1п., 2 этаж</p>
                   <p><a href="mailto:cgdv@ceramicgroup.ru">cgdv@ceramicgroup.ru</a></p>
                 </div>
                 <div class="b-footer__address">
@@ -257,13 +268,18 @@
               </div>
               <div class="b-footer__column">
                 <div class="b-footer__address">
+                  <p>Санкт-Петербург</p>
+                  <p>ул. Химиков, д. 28 к. АС, оф. 1210.</p>
+                  <p><a href="mailto:toptun.rv@ceramicgroup.ru">toptun.rv@ceramicgroup.ru</a></p>
+                </div>
+                <div class="b-footer__address">
                   <p>воронеж</p>
                   <p>Донбасская ул., 16в.</p>
                   <p><a href="mailto:dekorator-voronezh@mail.ru">dekorator-voronezh@mail.ru</a></p>
                 </div>
                 <div class="b-footer__address">
                   <p>ТАМБОВ</p>
-                  <p>Мичуринская ул., 215.</p>
+                  <p>Мичуринская ул., д. 215.</p>
                   <p><a href="mailto:info@klinkerstore.ru">info@klinkerstore.ru</a></p>
                 </div>
               </div>
@@ -279,9 +295,9 @@
                   <p><a href="mailto:zyryanova@ceramicgroup.ru">zyryanova@ceramicgroup.ru</a></p>
                 </div>
                 <div class="b-footer__address">
-                  <p>тула</p>
-                  <p>Фридриха Энгельса ул., 143.</p>
-                  <p><a href="mailto:info@klinkerstudio.ru">info@klinkerstudio.ru</a></p>
+                  <p>Новосибирск</p>
+                  <p>ул. Дуси Ковальчук,  д. 238, 1-этаж.</p>
+                  <p><a href="mailto:cgsib@ceramicgroup.ru">cgsib@ceramicgroup.ru</a></p>
                 </div>
               </div>
             </div>

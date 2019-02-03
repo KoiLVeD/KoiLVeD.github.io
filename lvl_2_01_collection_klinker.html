@@ -28,15 +28,18 @@
               <li><a href="/">Сервис</a></li>
               <li><a href="/">Журнал</a></li>
               <li><a href="/">Контакты</a></li>
-            </ul><a class="b-header__city" href="">Владивосток</a>
+            </ul>
+            <div class="b-header__city js-show-city">Москва</div>
             <div class="b-header__divider"></div>
           </div>
           <div class="b-header__bottom">
             <div class="b-header__menu">
-              <div class="b-header__item b-header__item--active b-header__item--arrow">Каталог
+              <div class="b-header__item b-header__item--active b-header__item--arrow"><a href="">Каталог</a>
                 <ul class="b-header__dropdown">
                   <li><a class="b-header__subitem arrow" href="">Клинкер</a>
-                    <div class="b-header__subdropdown"><a class="b-header__subitem" href="">wwwwwww</a><a class="b-header__subitem" href="">wwwwwww</a><a class="b-header__subitem" href="">wwwwwww</a><a class="b-header__subitem" href="">wwwwwww</a></div>
+                    <div class="b-header__subdropdown"><a class="b-header__subitem" href="">wwwwwww</a><a class="b-header__subitem" href="">wwwwwww</a><a class="b-header__subitem" href="">wwwwwww</a><a class="b-header__subitem" href="">wwwwwww</a><a class="b-header__subitem" href="">wwwwwww</a><a class="b-header__subitem" href="">wwwwwww</a><a class="b-header__subitem" href="">wwwwwww</a><a class="b-header__subitem" href="">wwwwwww</a>
+                      <hr><a class="b-header__subitem" href="">wwwwwww</a><a class="b-header__subitem" href="">wwwwwww</a>
+                    </div>
                   </li>
                   <li><a class="b-header__subitem arrow" href="">Кирпич ручной формовки</a></li>
                   <li><a class="b-header__subitem arrow" href="">Брусчатка</a>
@@ -46,12 +49,35 @@
                   <li><a class="b-header__subitem arrow" href="">и еще</a></li>
                 </ul>
               </div><a class="b-header__item" href="">Готовые объекты</a><a class="b-header__item" href="">Визуализации</a><a class="b-header__item" href="">Прайсы</a>
-            </div><a class="b-header__phone" href="tel:74959610053">+7 (495) 961-00-53</a>
+            </div>
+            <div class="b-header__list-phone"><span class="b-header__phone b-header__phone--main">+7 (499) 348-85-65</span><span class="b-header__phone b-header__phone--child"></span></div>
+          </div>
+          <div class="b-header__select-city" data-display_flag="false">
+            <div class="select-city">
+              <div class="select-city__region">
+                <p>ЦЕНТРАЛЬНЫЙ ФО</p><a class="select-city__item js-select-city active" href="" data-reg_id="1">Москва</a><a class="select-city__item js-select-city" href="" data-reg_id="8">Белгород</a><a class="select-city__item js-select-city" href="" data-reg_id="9">Воронеж</a><a class="select-city__item js-select-city" href="" data-reg_id="10">Курск</a><a class="select-city__item js-select-city" href="" data-reg_id="3">Тамбов</a>
+              </div>
+              <div class="select-city__region">
+                <p>СЕВ.ЗАПАД. ФО</p><a class="select-city__item js-select-city" href="" data-reg_id="11">Санкт-Петербург</a>
+              </div>
+              <div class="select-city__region">
+                <p>Южный ФО</p><a class="select-city__item js-select-city" href="" data-reg_id="7">Краснодар</a>
+              </div>
+              <div class="select-city__region">
+                <p>УРАЛЬСКИЙ ФО</p><a class="select-city__item js-select-city" href="" data-reg_id="2">Екатеринбург</a>
+              </div>
+              <div class="select-city__region">
+                <p>СИБИРСКИЙ ФО</p><a class="select-city__item js-select-city" href="" data-reg_id="4">Новосибирск</a>
+              </div>
+              <div class="select-city__region">
+                <p>ДАЛЬНЕВОСТОЧНЫЙ ФО</p><a class="select-city__item js-select-city" href="" data-reg_id="6">Владивосток</a>
+              </div>
+            </div>
           </div>
         </div>
       </header>
       <div class="b-main b-main--short">
-        <div class="b-main__bg" style="background-image: url(&quot;./images/catalog_detail/Группа 9.jpg&quot;);"></div>
+        <div class="b-main__bg" style="background-image: url(&quot;./images/catalog_detail/Группа 9.jpg&quot;)"></div>
         <div class="b-main__content">
           <div class="container">
             <div class="b-breadcrumbs"><a href="">Главная</a><a href="">Каталог</a></div>
@@ -62,226 +88,215 @@
       <div class="b-slider-filter">
         <div class="container">
           <div class="b-slider-filter__wrap">
-            <div class="b-slider-filter__list"><a class="b-slider-filter__item" href="#stena">Плитка для стен и фасадов</a><a class="b-slider-filter__item" href="#plitka">Напольная плитка и ступени</a><a class="b-slider-filter__item" href="#terassa">Террасные плаcтины</a><a class="b-slider-filter__item" href="#trotuar">Тротуарная плитка</a><a class="b-slider-filter__item" href="#prom">Промышленная плитка</a></div>
+            <div class="b-slider-filter__list">
+              <div class="b-slider-filter__item active">Плитка для стен и фасадов</div>
+              <div class="b-slider-filter__item">Напольная плитка и ступени</div>
+              <div class="b-slider-filter__item">Террасные плаcтины</div>
+              <div class="b-slider-filter__item">Тротуарная плитка</div>
+              <div class="b-slider-filter__item">Промышленная плитка</div>
+            </div>
           </div>
         </div>
       </div>
-      <!--include blocks/b-select-filter-->
       <div class="b-grid b-grid--collection-color">
-        <div id="stena">
-          <div class="b-grid__single">
-            <div class="container">
-              <div class="b-single-card">
-                <div class="b-single-card__img b-single-card--8 b-single-card--r-4"><img src="./images/catalog_detail/01_zoe_02.jpg">
-                </div>
-                <div class="b-single-card__content b-single-card--5">
-                  <h2>ZOÉ</h2>
-                  <p>Классические оттенки модных архитектурных направлений: прохладный серый цвет, теплый коричневый цвет и элегантный желтый цвет</p>
-                  <div class="b-single-card__color">
-                    <div class="b-single-card__color-item"><img src="./images/catalog_detail/11.jpg">
-                    </div>
-                    <div class="b-single-card__color-item"><img src="./images/catalog_detail/22.jpg">
-                    </div>
-                    <div class="b-single-card__color-item"><img src="./images/catalog_detail/33.jpg">
-                    </div>
-                    <div class="b-single-card__color-item"><img src="./images/catalog_detail/44.jpg">
-                    </div><a class="b-single-card__color-item b-single-card__color-item--popup js-popup" href="#popup-color"><span>+45</span><img src="./images/catalog_detail/44.jpg"></a>
-                  </div><a class="btn btn--submit" href="">Подробнее</a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="b-grid__single b-grid__single--fullpage">
-            <div class="b-single-card">
-              <div class="b-single-card__img"><img src="./images/catalog_detail/Gravelblend_0186_962_01 копия.jpg">
-              </div>
-              <div class="container">
-                <div class="b-single-card__content b-single-card--5">
-                  <h2>GRAVEL BLEND</h2>
-                  <p>Классические оттенки модных архитектурных направлений: прохладный серый цвет, теплый коричневый цвет и элегантный желтый цвет</p>
-                  <div class="b-single-card__color">
-                    <div class="b-single-card__color-item"><img src="./images/catalog_detail/11.jpg">
-                    </div>
-                    <div class="b-single-card__color-item"><img src="./images/catalog_detail/22.jpg">
-                    </div>
-                    <div class="b-single-card__color-item"><img src="./images/catalog_detail/33.jpg">
-                    </div>
-                    <div class="b-single-card__color-item"><img src="./images/catalog_detail/44.jpg">
-                    </div>
-                  </div><a class="btn btn--submit" href="">Подробнее</a>
-                </div>
+        <div class="b-grid__single">
+          <div class="container">
+            <div class="b-single-card"><a class="b-single-card__img b-single-card--8 b-single-card--r-4" href=""><img src="./images/catalog_detail/01_zoe_02.jpg"></a>
+              <div class="b-single-card__content b-single-card--5">
+                <h2>ZOÉ</h2>
+                <p>Классические оттенки модных архитектурных направлений: прохладный серый цвет, теплый коричневый цвет и элегантный желтый цвет</p>
+                <div class="b-single-card__color">
+                  <div class="b-single-card__color-item"><img src="./images/catalog_detail/11.jpg">
+                  </div>
+                  <div class="b-single-card__color-item"><img src="./images/catalog_detail/22.jpg">
+                  </div>
+                  <div class="b-single-card__color-item"><img src="./images/catalog_detail/33.jpg">
+                  </div>
+                  <div class="b-single-card__color-item"><img src="./images/catalog_detail/44.jpg">
+                  </div><a class="b-single-card__color-item b-single-card__color-item--popup js-popup" href="#popup-color"><span>+45</span><img src="./images/catalog_detail/44.jpg"></a>
+                </div><a class="btn btn--submit" href="">Подробнее</a>
               </div>
             </div>
           </div>
         </div>
-        <div id="plitka">
-          <div class="b-grid__single">
+        <div class="b-grid__single b-grid__single--fullpage">
+          <div class="b-single-card"><a class="b-single-card__img" href=""><img src="./images/catalog_detail/Gravelblend_0186_962_01 копия.jpg"></a>
             <div class="container">
-              <div class="b-single-card">
-                <div class="b-single-card__img"><img src="./images/catalog_detail/EPOS.952.02 копия.jpg">
-                </div>
-                <div class="b-single-card__content b-single-card--5">
-                  <h2>EPOS</h2>
-                  <p>Классические оттенки модных архитектурных направлений: прохладный серый цвет, теплый коричневый цвет и элегантный желтый цвет</p>
-                  <div class="b-single-card__color">
-                    <div class="b-single-card__color-item"><img src="./images/catalog_detail/11.jpg">
-                    </div>
-                    <div class="b-single-card__color-item"><img src="./images/catalog_detail/22.jpg">
-                    </div>
-                  </div><a class="btn btn--submit" href="">Подробнее</a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="b-grid__single b-grid__single--fullpage">
-            <div class="b-single-card">
-              <div class="b-single-card__img"><img src="./images/catalog_detail/csm_01.aerat.705.01_e15a36bbb7.jpg">
-              </div>
-              <div class="container">
-                <div class="b-single-card__content b-single-card--5">
-                  <h2>AERA T</h2>
-                  <p>Классические оттенки модных архитектурных направлений: прохладный серый цвет, теплый коричневый цвет и элегантный желтый цвет</p>
-                  <div class="b-single-card__color">
-                    <div class="b-single-card__color-item"><img src="./images/catalog_detail/11.jpg">
-                    </div>
-                    <div class="b-single-card__color-item"><img src="./images/catalog_detail/22.jpg">
-                    </div>
-                    <div class="b-single-card__color-item"><img src="./images/catalog_detail/33.jpg">
-                    </div>
-                  </div><a class="btn btn--submit" href="">Подробнее</a>
-                </div>
+              <div class="b-single-card__content b-single-card--5">
+                <h2>GRAVEL BLEND</h2>
+                <p>Классические оттенки модных архитектурных направлений: прохладный серый цвет, теплый коричневый цвет и элегантный желтый цвет</p>
+                <div class="b-single-card__color">
+                  <div class="b-single-card__color-item"><img src="./images/catalog_detail/11.jpg">
+                  </div>
+                  <div class="b-single-card__color-item"><img src="./images/catalog_detail/22.jpg">
+                  </div>
+                  <div class="b-single-card__color-item"><img src="./images/catalog_detail/33.jpg">
+                  </div>
+                  <div class="b-single-card__color-item"><img src="./images/catalog_detail/44.jpg">
+                  </div>
+                </div><a class="btn btn--submit" href="">Подробнее</a>
               </div>
             </div>
           </div>
         </div>
-        <div id="terassa">
-          <div class="b-grid__single">
-            <div class="container">
-              <div class="b-single-card">
-                <div class="b-single-card__img"><img src="./images/catalog_detail/AERA_755_04 копия.jpg">
-                </div>
-                <div class="b-single-card__content b-single-card--5">
-                  <h2>AERA</h2>
-                  <p>Классические оттенки модных архитектурных направлений: прохладный серый цвет, теплый коричневый цвет и элегантный желтый цвет</p>
-                  <div class="b-single-card__color">
-                    <div class="b-single-card__color-item"><img src="./images/catalog_detail/11.jpg">
-                    </div>
-                    <div class="b-single-card__color-item"><img src="./images/catalog_detail/22.jpg">
-                    </div>
-                    <div class="b-single-card__color-item"><img src="./images/catalog_detail/33.jpg">
-                    </div>
-                    <div class="b-single-card__color-item"><img src="./images/catalog_detail/44.jpg">
-                    </div>
-                  </div><a class="btn btn--submit" href="">Подробнее</a>
-                </div>
+        <div class="b-grid__single">
+          <div class="container">
+            <div class="b-single-card"><a class="b-single-card__img" href=""><img src="./images/catalog_detail/EPOS.952.02 копия.jpg"></a>
+              <div class="b-single-card__content b-single-card--5">
+                <h2>EPOS</h2>
+                <p>Классические оттенки модных архитектурных направлений: прохладный серый цвет, теплый коричневый цвет и элегантный желтый цвет</p>
+                <div class="b-single-card__color">
+                  <div class="b-single-card__color-item"><img src="./images/catalog_detail/11.jpg">
+                  </div>
+                  <div class="b-single-card__color-item"><img src="./images/catalog_detail/22.jpg">
+                  </div>
+                </div><a class="btn btn--submit" href="">Подробнее</a>
               </div>
             </div>
           </div>
         </div>
-        <div id="trotuar">
-          <div class="b-grid__single">
-            <div class="container">
-              <div class="b-single-card">
-                <div class="b-single-card__img b-single-card--8 b-single-card--r-4"><img src="./images/catalog_detail/01_zoe_02.jpg">
-                </div>
-                <div class="b-single-card__content b-single-card--5">
-                  <h2>ZOÉ</h2>
-                  <p>Классические оттенки модных архитектурных направлений: прохладный серый цвет, теплый коричневый цвет и элегантный желтый цвет</p>
-                  <div class="b-single-card__color">
-                    <div class="b-single-card__color-item"><img src="./images/catalog_detail/11.jpg">
-                    </div>
-                    <div class="b-single-card__color-item"><img src="./images/catalog_detail/22.jpg">
-                    </div>
-                    <div class="b-single-card__color-item"><img src="./images/catalog_detail/33.jpg">
-                    </div>
-                    <div class="b-single-card__color-item"><img src="./images/catalog_detail/44.jpg">
-                    </div><a class="b-single-card__color-item b-single-card__color-item--popup js-popup" href="#popup-color"><span>+45</span><img src="./images/catalog_detail/44.jpg"></a>
-                  </div><a class="btn btn--submit" href="">Подробнее</a>
-                </div>
-              </div>
+        <div class="b-grid__single b-grid__single--fullpage">
+          <div class="b-single-card">
+            <div class="b-single-card__img"><img src="./images/catalog_detail/csm_01.aerat.705.01_e15a36bbb7.jpg">
             </div>
-          </div>
-          <div class="b-grid__single b-grid__single--fullpage">
-            <div class="b-single-card">
-              <div class="b-single-card__img"><img src="./images/catalog_detail/Gravelblend_0186_962_01 копия.jpg">
-              </div>
-              <div class="container">
-                <div class="b-single-card__content b-single-card--5">
-                  <h2>GRAVEL BLEND</h2>
-                  <p>Классические оттенки модных архитектурных направлений: прохладный серый цвет, теплый коричневый цвет и элегантный желтый цвет</p>
-                  <div class="b-single-card__color">
-                    <div class="b-single-card__color-item"><img src="./images/catalog_detail/11.jpg">
-                    </div>
-                    <div class="b-single-card__color-item"><img src="./images/catalog_detail/22.jpg">
-                    </div>
-                    <div class="b-single-card__color-item"><img src="./images/catalog_detail/33.jpg">
-                    </div>
-                    <div class="b-single-card__color-item"><img src="./images/catalog_detail/44.jpg">
-                    </div>
-                  </div><a class="btn btn--submit" href="">Подробнее</a>
-                </div>
+            <div class="container">
+              <div class="b-single-card__content b-single-card--5">
+                <h2>AERA T</h2>
+                <p>Классические оттенки модных архитектурных направлений: прохладный серый цвет, теплый коричневый цвет и элегантный желтый цвет</p>
+                <div class="b-single-card__color">
+                  <div class="b-single-card__color-item"><img src="./images/catalog_detail/11.jpg">
+                  </div>
+                  <div class="b-single-card__color-item"><img src="./images/catalog_detail/22.jpg">
+                  </div>
+                  <div class="b-single-card__color-item"><img src="./images/catalog_detail/33.jpg">
+                  </div>
+                </div><a class="btn btn--submit" href="">Подробнее</a>
               </div>
             </div>
           </div>
         </div>
-        <div id="prom">
-          <div class="b-grid__single">
-            <div class="container">
-              <div class="b-single-card">
-                <div class="b-single-card__img"><img src="./images/catalog_detail/EPOS.952.02 копия.jpg">
-                </div>
-                <div class="b-single-card__content b-single-card--5">
-                  <h2>EPOS</h2>
-                  <p>Классические оттенки модных архитектурных направлений: прохладный серый цвет, теплый коричневый цвет и элегантный желтый цвет</p>
-                  <div class="b-single-card__color">
-                    <div class="b-single-card__color-item"><img src="./images/catalog_detail/11.jpg">
-                    </div>
-                    <div class="b-single-card__color-item"><img src="./images/catalog_detail/22.jpg">
-                    </div>
-                  </div><a class="btn btn--submit" href="">Подробнее</a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="b-grid__single b-grid__single--fullpage">
+        <div class="b-grid__single">
+          <div class="container">
             <div class="b-single-card">
-              <div class="b-single-card__img"><img src="./images/catalog_detail/csm_01.aerat.705.01_e15a36bbb7.jpg">
+              <div class="b-single-card__img"><img src="./images/catalog_detail/AERA_755_04 копия.jpg">
               </div>
-              <div class="container">
-                <div class="b-single-card__content b-single-card--5">
-                  <h2>AERA T</h2>
-                  <p>Классические оттенки модных архитектурных направлений: прохладный серый цвет, теплый коричневый цвет и элегантный желтый цвет</p>
-                  <div class="b-single-card__color">
-                    <div class="b-single-card__color-item"><img src="./images/catalog_detail/11.jpg">
-                    </div>
-                    <div class="b-single-card__color-item"><img src="./images/catalog_detail/22.jpg">
-                    </div>
-                    <div class="b-single-card__color-item"><img src="./images/catalog_detail/33.jpg">
-                    </div>
-                  </div><a class="btn btn--submit" href="">Подробнее</a>
-                </div>
+              <div class="b-single-card__content b-single-card--5">
+                <h2>AERA</h2>
+                <p>Классические оттенки модных архитектурных направлений: прохладный серый цвет, теплый коричневый цвет и элегантный желтый цвет</p>
+                <div class="b-single-card__color">
+                  <div class="b-single-card__color-item"><img src="./images/catalog_detail/11.jpg">
+                  </div>
+                  <div class="b-single-card__color-item"><img src="./images/catalog_detail/22.jpg">
+                  </div>
+                  <div class="b-single-card__color-item"><img src="./images/catalog_detail/33.jpg">
+                  </div>
+                  <div class="b-single-card__color-item"><img src="./images/catalog_detail/44.jpg">
+                  </div>
+                </div><a class="btn btn--submit" href="">Подробнее</a>
               </div>
             </div>
           </div>
-          <div class="b-grid__single">
+        </div>
+        <div class="b-grid__single">
+          <div class="container">
+            <div class="b-single-card">
+              <div class="b-single-card__img b-single-card--8 b-single-card--r-4"><img src="./images/catalog_detail/01_zoe_02.jpg">
+              </div>
+              <div class="b-single-card__content b-single-card--5">
+                <h2>ZOÉ</h2>
+                <p>Классические оттенки модных архитектурных направлений: прохладный серый цвет, теплый коричневый цвет и элегантный желтый цвет</p>
+                <div class="b-single-card__color">
+                  <div class="b-single-card__color-item"><img src="./images/catalog_detail/11.jpg">
+                  </div>
+                  <div class="b-single-card__color-item"><img src="./images/catalog_detail/22.jpg">
+                  </div>
+                  <div class="b-single-card__color-item"><img src="./images/catalog_detail/33.jpg">
+                  </div>
+                  <div class="b-single-card__color-item"><img src="./images/catalog_detail/44.jpg">
+                  </div><a class="b-single-card__color-item b-single-card__color-item--popup js-popup" href="#popup-color"><span>+45</span><img src="./images/catalog_detail/44.jpg"></a>
+                </div><a class="btn btn--submit" href="">Подробнее</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="b-grid__single b-grid__single--fullpage">
+          <div class="b-single-card">
+            <div class="b-single-card__img"><img src="./images/catalog_detail/Gravelblend_0186_962_01 копия.jpg">
+            </div>
             <div class="container">
-              <div class="b-single-card">
-                <div class="b-single-card__img"><img src="./images/catalog_detail/AERA_755_04 копия.jpg">
-                </div>
-                <div class="b-single-card__content b-single-card--5">
-                  <h2>AERA</h2>
-                  <p>Классические оттенки модных архитектурных направлений: прохладный серый цвет, теплый коричневый цвет и элегантный желтый цвет</p>
-                  <div class="b-single-card__color">
-                    <div class="b-single-card__color-item"><img src="./images/catalog_detail/11.jpg">
-                    </div>
-                    <div class="b-single-card__color-item"><img src="./images/catalog_detail/22.jpg">
-                    </div>
-                    <div class="b-single-card__color-item"><img src="./images/catalog_detail/33.jpg">
-                    </div>
-                    <div class="b-single-card__color-item"><img src="./images/catalog_detail/44.jpg">
-                    </div>
-                  </div><a class="btn btn--submit" href="">Подробнее</a>
-                </div>
+              <div class="b-single-card__content b-single-card--5">
+                <h2>GRAVEL BLEND</h2>
+                <p>Классические оттенки модных архитектурных направлений: прохладный серый цвет, теплый коричневый цвет и элегантный желтый цвет</p>
+                <div class="b-single-card__color">
+                  <div class="b-single-card__color-item"><img src="./images/catalog_detail/11.jpg">
+                  </div>
+                  <div class="b-single-card__color-item"><img src="./images/catalog_detail/22.jpg">
+                  </div>
+                  <div class="b-single-card__color-item"><img src="./images/catalog_detail/33.jpg">
+                  </div>
+                  <div class="b-single-card__color-item"><img src="./images/catalog_detail/44.jpg">
+                  </div>
+                </div><a class="btn btn--submit" href="">Подробнее</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="b-grid__single">
+          <div class="container">
+            <div class="b-single-card">
+              <div class="b-single-card__img"><img src="./images/catalog_detail/EPOS.952.02 копия.jpg">
+              </div>
+              <div class="b-single-card__content b-single-card--5">
+                <h2>EPOS</h2>
+                <p>Классические оттенки модных архитектурных направлений: прохладный серый цвет, теплый коричневый цвет и элегантный желтый цвет</p>
+                <div class="b-single-card__color">
+                  <div class="b-single-card__color-item"><img src="./images/catalog_detail/11.jpg">
+                  </div>
+                  <div class="b-single-card__color-item"><img src="./images/catalog_detail/22.jpg">
+                  </div>
+                </div><a class="btn btn--submit" href="">Подробнее</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="b-grid__single b-grid__single--fullpage">
+          <div class="b-single-card">
+            <div class="b-single-card__img"><img src="./images/catalog_detail/csm_01.aerat.705.01_e15a36bbb7.jpg">
+            </div>
+            <div class="container">
+              <div class="b-single-card__content b-single-card--5">
+                <h2>AERA T</h2>
+                <p>Классические оттенки модных архитектурных направлений: прохладный серый цвет, теплый коричневый цвет и элегантный желтый цвет</p>
+                <div class="b-single-card__color">
+                  <div class="b-single-card__color-item"><img src="./images/catalog_detail/11.jpg">
+                  </div>
+                  <div class="b-single-card__color-item"><img src="./images/catalog_detail/22.jpg">
+                  </div>
+                  <div class="b-single-card__color-item"><img src="./images/catalog_detail/33.jpg">
+                  </div>
+                </div><a class="btn btn--submit" href="">Подробнее</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="b-grid__single">
+          <div class="container">
+            <div class="b-single-card">
+              <div class="b-single-card__img"><img src="./images/catalog_detail/AERA_755_04 копия.jpg">
+              </div>
+              <div class="b-single-card__content b-single-card--5">
+                <h2>AERA</h2>
+                <p>Классические оттенки модных архитектурных направлений: прохладный серый цвет, теплый коричневый цвет и элегантный желтый цвет</p>
+                <div class="b-single-card__color">
+                  <div class="b-single-card__color-item"><img src="./images/catalog_detail/11.jpg">
+                  </div>
+                  <div class="b-single-card__color-item"><img src="./images/catalog_detail/22.jpg">
+                  </div>
+                  <div class="b-single-card__color-item"><img src="./images/catalog_detail/33.jpg">
+                  </div>
+                  <div class="b-single-card__color-item"><img src="./images/catalog_detail/44.jpg">
+                  </div>
+                </div><a class="btn btn--submit" href="">Подробнее</a>
               </div>
             </div>
           </div>
@@ -294,7 +309,8 @@
               <div class="b-footer__column">
                 <div class="b-footer__address">
                   <p>БЕЛГОРОД</p>
-                  <p>Пугачёва ул., 5б.</p>
+                  <p>ул. Пугачёва д. 5б (2 этаж)</p>
+                  <p>ул. Благодатная, 5б.</p>
                   <p><a href="mailto:dekorator-stone@mail.ru">dekorator-stone@mail.ru</a></p>
                 </div>
                 <div class="b-footer__address">
@@ -306,7 +322,7 @@
               <div class="b-footer__column">
                 <div class="b-footer__address">
                   <p>ВЛАДИВОСТОК</p>
-                  <p>Ильичева ул., 22а, оф. 4.</p>
+                  <p>Ильичева ул., 22а, оф. 4. 1п., 2 этаж</p>
                   <p><a href="mailto:cgdv@ceramicgroup.ru">cgdv@ceramicgroup.ru</a></p>
                 </div>
                 <div class="b-footer__address">
@@ -317,13 +333,18 @@
               </div>
               <div class="b-footer__column">
                 <div class="b-footer__address">
+                  <p>Санкт-Петербург</p>
+                  <p>ул. Химиков, д. 28 к. АС, оф. 1210.</p>
+                  <p><a href="mailto:toptun.rv@ceramicgroup.ru">toptun.rv@ceramicgroup.ru</a></p>
+                </div>
+                <div class="b-footer__address">
                   <p>воронеж</p>
                   <p>Донбасская ул., 16в.</p>
                   <p><a href="mailto:dekorator-voronezh@mail.ru">dekorator-voronezh@mail.ru</a></p>
                 </div>
                 <div class="b-footer__address">
                   <p>ТАМБОВ</p>
-                  <p>Мичуринская ул., 215.</p>
+                  <p>Мичуринская ул., д. 215.</p>
                   <p><a href="mailto:info@klinkerstore.ru">info@klinkerstore.ru</a></p>
                 </div>
               </div>
@@ -339,9 +360,9 @@
                   <p><a href="mailto:zyryanova@ceramicgroup.ru">zyryanova@ceramicgroup.ru</a></p>
                 </div>
                 <div class="b-footer__address">
-                  <p>тула</p>
-                  <p>Фридриха Энгельса ул., 143.</p>
-                  <p><a href="mailto:info@klinkerstudio.ru">info@klinkerstudio.ru</a></p>
+                  <p>Новосибирск</p>
+                  <p>ул. Дуси Ковальчук,  д. 238, 1-этаж.</p>
+                  <p><a href="mailto:cgsib@ceramicgroup.ru">cgsib@ceramicgroup.ru</a></p>
                 </div>
               </div>
             </div>
