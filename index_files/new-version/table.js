@@ -1,6 +1,5 @@
 class Table {
     constructor(name, sound) {
-        alert('dd')
         this.fixedTable = $('.js-fixed-table');
         this.trFixedTable = this.fixedTable.find('tr');
 
